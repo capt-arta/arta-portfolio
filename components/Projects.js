@@ -21,25 +21,25 @@ const Projects = () => {
     const projectsData = [
         {
             title: 'ITSD Telkomsel Dashboard VoC',
-            url: '/',
+            url: '',
             img: '/assets/projects/itsd.png',
             tech: 'Laravel and MySql',
         },
         {
             title: 'CariParkir CMS',
-            url: '/',
+            url: '',
             img: '/assets/projects/cariparkir.png',
             tech: 'Vue JS and React JS',
         },
         {
             title: 'Ajari Edutech',
-            url: '/',
+            url: '',
             img: '/assets/projects/ajari.png',
             tech: 'Next JS',
         },
         {
             title: 'Dashboard SIPD Kemendagri',
-            url: '/',
+            url: '',
             img: '/assets/projects/sipd.png',
             tech: 'Next JS',
         },
