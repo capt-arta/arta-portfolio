@@ -5,21 +5,6 @@ import arta from '/public/assets/arta-bgblur.png'
 
 const About = () => {
   return (
-    // <div className='w-full md:h-screen px-8 py-14 flex items-center'>
-    //     <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
-    //         <div className='col-span-2'>
-    //             <p className='tracking-widest text-xl font-medium '>
-    //                 <span className='bg-artiysx-coksu/20 text-artiysx-coksu'>
-    //                     ABOUT
-    //                 </span>
-    //             </p>
-    //             <h2 className='py-3'>
-    //                 Who I Am
-    //             </h2>
-    //         </div>
-    //         <div></div>
-    //     </div>
-    // </div>
     <div id='about' className='w-full md:h-screen p-8 flex items-center py-16'>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
         <div className='col-span-2'>

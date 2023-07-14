@@ -21,15 +21,23 @@ const Navbar = () => {
     const dataMenu = [
         {
             id: "/#home",
-            text: "Home"
+            text: "Home",
         },
         {
             id: "/#about",
-            text: "About"
+            text: "About",
         },
         {
             id: "/#skills",
-            text: "skills"
+            text: "Skills",
+        },
+        {
+            id: "/#projects",
+            text: "Projects",
+        },
+        {
+            id: "/#contact",
+            text: "Contact",
         },
     ]
 
