@@ -26,7 +26,7 @@ const Projects = () => {
             tech: 'Laravel and MySql',
         },
         {
-            title: 'CariParkir',
+            title: 'CariParkir CMS',
             url: '/',
             img: '/assets/projects/cariparkir.png',
             tech: 'Vue JS and React JS',
