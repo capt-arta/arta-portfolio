@@ -8,33 +8,44 @@ const Main = () => {
     const router = useRouter();
     const contactData = [
         {
-            icon: <FaLinkedinIn className='text-artiysx-smoke' />,
+            icon: <FaLinkedinIn />,
             text: 'linkedin',
+            url: 'https://www.linkedin.com/in/rizqi-arta-fatullah/',
         },
         {
-            icon: <FaGithub className='text-artiysx-smoke' />,
+            icon: <FaGithub />,
             text: 'github',
+            url: 'https://github.com/capt-arta',
         },
         {
-            icon: <FaInstagram className='text-artiysx-smoke' />,
+            icon: <FaInstagram />,
             text: 'instagram',
+            url: 'https://www.instagram.com/naefaaa__/',
         },
         {
-            icon: <SiGmail className='text-artiysx-smoke' />,
+            icon: <SiGmail />,
             text: 'email',
+            url: 'mailto:rizqi.arta13@gmail.com',
         },
     ];
-    const ContactList = (props) => {
-        const {icon, text} = props
-        return (<div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-            {icon}
-        </div>)
+    const ContactList = ({icon, text, url}) => {
+
+        return (
+            <Link href={url} passHref rel='noopener noreferrer' target='_blank'>
+                <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease duration-200'>
+                    <div className='text-artiysx-smoke text-3xl'>
+                        {icon}
+                    </div>
+                </div>
+            </Link>
+        );
     };
 
     return (
-        <div id='profile_section' className='w-full h-screen text-center'>
+        <div id='home' className='w-full h-screen text-center'>
             <div className='max-w-[1240px] w-full h-full mx-auto p-8 flex justify-center items-center'>
-                <div className=''>
+                {/* <div className='pt-16 border-b-4 border-b-artiysx-coksu/50'> */}
+                <div className='pt-16'>
                     <p className='uppercase text-sm tracking-widest text-artiysx-smoke'>
                         <span className=' bg-artiysx-smoke/20'>
                             {"let's build something together"}
@@ -46,26 +57,9 @@ const Main = () => {
                         {"I'm a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on building responsive front-end web applications while learning back-end technologies."}
                     </p>
                     <div className='flex items-center justify-center gap-4 md:gap-8 my-auto py-8'>
-                        <Link href={'https://www.linkedin.com/in/rizqi-arta-fatullah/'} passHref rel='noopener noreferrer' target='_blank'>
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease duration-200'>
-                                <FaLinkedinIn className='text-artiysx-smoke text-3xl' />
-                            </div>
-                        </Link>
-                        <Link href={'https://github.com/capt-arta'} passHref rel='noopener noreferrer' target='_blank'>
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease duration-200'>
-                                <FaGithub className='text-artiysx-smoke text-3xl' />
-                            </div>
-                        </Link>
-                        <Link href={'https://www.instagram.com/naefaaa__/'} passHref rel='noopener noreferrer' target='_blank'>
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease duration-200'>
-                                <FaInstagram className='text-artiysx-smoke text-3xl' />
-                            </div>
-                        </Link>
-                        <Link href={'mailto:rizqi.arta13@gmail.com'} passHref rel='noopener noreferrer' target='_blank'>
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease duration-200'>
-                                <SiGmail className='text-artiysx-smoke text-3xl' />
-                            </div>
-                        </Link>
+                        {contactData?.map((it, idx)=>{
+                            return <ContactList key={idx} icon={it.icon} url={it.url} />
+                        })}
                     </div>
                 </div>
             </div>

@@ -66,7 +66,7 @@ const Skills = () => {
                     <div className='m-auto'>
                         <Image src={image} alt='/' className='aspect-square w-[64px] h-[64px] object-contain' width={64} height={64} />
                     </div>
-                    <div className='flex flex-col items-center justify-center'>
+                    <div className='tracking-wide flex flex-col items-center justify-center'>
                         <h3>{text}</h3>
                     </div>
                 </div>
@@ -75,7 +75,7 @@ const Skills = () => {
     }
 
     return (
-        <div className='w-full lg:h-screen p-8'>
+        <div id='skills' className='w-full lg:h-screen p-8'>
             <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full' >
                 <p className='tracking-widest text-xl font-medium '>
                     <span className='bg-artiysx-coksu/20 text-artiysx-coksu'>
@@ -85,7 +85,7 @@ const Skills = () => {
                 <h2 className='py-3'>
                     What I Can Do
                 </h2>
-                <div className='grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8'>
+                <div className='grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-4'>
                     {skillsData?.map((it, idx)=>{
                         return <SkillsCard key={idx} text={it.text} image={it.image} />
                     })}

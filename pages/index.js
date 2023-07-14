@@ -3,18 +3,18 @@ import { Inter } from 'next/font/google'
 import Navbar from '@/components/Navbar'
 import Main from '@/components/Main'
 import Skills from '@/components/Skills'
+import About from '@/components/About'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <div
-      className={`flex min-h-screen flex-col ${inter.className}`}
+      className={`flex min-h-screen flex-col scroll-smooth ${inter.className}`}
     >
-      <div className='z-[999]'>
-        <Navbar />
-      </div>
+      <Navbar />
       <Main />
+      <About />
       <Skills />
     </div>
   )

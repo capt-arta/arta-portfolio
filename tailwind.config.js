@@ -13,11 +13,14 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       colors: {
-        'artiysx-smoke' : '#989898 ',
-        'artiysx-blusky' : '#38bdf8',
-        'artiysx-coksu':'#d9b29e',
-        'navbg' : '#272829',
+        'artiysx-smoke': '#989898 ',
+        'artiysx-blusky': '#38bdf8',
+        'artiysx-coksu': '#d9b29e',
+        'navbg': '#272829',
       },
+      // screens: {
+      //   'mobile': '380px',
+      // },
     },
   },
   plugins: [],

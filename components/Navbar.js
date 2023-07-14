@@ -1,23 +1,35 @@
 import { MenuOutlined, CloseOutlined } from '@ant-design/icons'
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
+    const [shadow, setShadow] = useState(false);
+
+    useEffect(()=>{
+        const handleShadow = () => {
+            if (window.scrollY >= 90) {
+                setShadow(true);
+            } else {
+                setShadow(false);
+            }
+        }
+        window.addEventListener('scroll', handleShadow)
+    }, []);
 
     const dataMenu = [
         {
-            id: "#profile_section",
-            text: "Profile"
+            id: "/#home",
+            text: "Home"
         },
         {
-            id: "#Portfolio_section",
-            text: "Portfolio"
+            id: "/#about",
+            text: "About"
         },
         {
-            id: "#contact_section",
-            text: "Contact"
+            id: "/#skills",
+            text: "skills"
         },
     ]
 
@@ -38,7 +50,7 @@ const Navbar = () => {
     };
     
   return (
-    <div className='fixed top-0 z-[9999] w-full flex items-center justify-between px-8 py-5 lg:px-24 shadow-lg'>
+    <div className={`${shadow ? 'shadow-xl' : ''} duration-300 fixed top-0 z-[9999] w-full flex items-center justify-between px-8 py-5 lg:px-24 bg-white `}>
         <div className="h-full flex items-center">
             {/* <Image src={'./assets/logo-whitesmoke.svg'} alt='/' height={40} width={40} /> */}
             {/* <span className='text-2xl font-extrabold text-artiysx-smoke -ml-2 h-full items-end'>rtiysx</span> */}
@@ -57,9 +69,9 @@ const Navbar = () => {
             </div>
             {/* mobile nav */}
             <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/30' : ''}>
-                <div className={nav ? 'flex flex-col justify-between fixed left-0 top-0 w-[90%] sm:w-[50%] h-screen bg-white ease-in duration-300 shadow-xl': 'flex flex-col justify-between fixed top-0 left-[-100%] w-[90%] sm:w-[50%] h-screen bg-white ease-in duration-300 shadow-xl'}>
+                <div className={nav ? 'flex flex-col justify-between fixed left-0 top-0 w-[100%] sm:w-[60%] h-screen bg-white ease-in duration-300 shadow-xl': 'flex flex-col justify-between fixed top-0 left-[-100%] w-[90%] sm:w-[50%] h-screen bg-white ease-in duration-300 shadow-xl'}>
                     <div>
-                        <div className='flex w-full items-center justify-between px-10 py-7 bg-white'>
+                        <div className='flex w-full items-center justify-between pl-10 pr-8 py-7 bg-white'>
                             {/* <Image src={'./assets/logo-whitesmoke.svg'} alt='/' height={40} width={40} /> */}
                             {/* <span className='text-2xl font-extrabold text-artiysx-smoke -ml-2 h-full items-end'>rtiysx</span> */}
                             <span className='uppercase text-2xl font-extrabold h-full text-artiysx-coksu bg-artiysx-coksu/20 items-end'>{"gatau"}</span>
@@ -75,7 +87,7 @@ const Navbar = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className='p-10'>
+                    <div className='p-10 border-t-2 border-t-artiysx-coksu/50'>
                         <div className=''>
                             
                         </div>
