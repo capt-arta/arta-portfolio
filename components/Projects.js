@@ -23,7 +23,7 @@ const Projects = () => {
             title: 'ITSD Telkomsel Dashboard VoC',
             url: '/',
             img: '/assets/projects/itsd.png',
-            tech: 'Laravel adn MySql',
+            tech: 'Laravel and MySql',
         },
         {
             title: 'CariParkir',
@@ -47,7 +47,7 @@ const Projects = () => {
 
     return (
         <div id='projects' className='w-full'>
-            <div className='max-w-[1240px] mx-auto px-2 py-16'>
+            <div className='max-w-[1240px] mx-auto px-8 py-12 mt-16'>
                 <p className='tracking-widest text-xl font-medium '>
                     <span className='bg-artiysx-coksu/20 text-artiysx-coksu'>
                         PROJECTS

@@ -43,7 +43,7 @@ const Navbar = () => {
 
     const ListMenu = ({href, text}) => {
         return (
-            <Link href={href} className="">
+            <Link href={href} className="" onClick={()=>setNav(false)}>
                 <li className="">
                     <span className='uppercase text-md link link-underline link-underline-black transition-all'>
                         {text}
