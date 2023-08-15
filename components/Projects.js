@@ -5,8 +5,8 @@ import React from 'react'
 const Projects = () => {
     const ProjectItem = ({title, img, tech, url}) => {
         return (
-            <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#72452e] to-[#cb8664] '>
-                <Image className='rounded-xl group-hover:opacity-10 aspect-auto' width={700} height={400} objectFit='contain' src={img} alt='/' /> 
+            <div className='relative bg-gray-500 flex items-center justify-center overflow-hidden h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#72452e] to-[#cb8664] '>
+                <Image className=' group-hover:opacity-10 aspect-auto' width={700} height={400} objectFit='contain' src={img} alt='/' /> 
                 <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
                     <h3 className='text-2xl text-white tracking-wider text-center'>{title}</h3>
                     <p className='pb-4 pt-2 text-white text-center'>{tech}</p>
@@ -23,7 +23,7 @@ const Projects = () => {
             title: 'ITSD Telkomsel Dashboard VoC',
             url: '',
             img: '/assets/projects/itsd.png',
-            tech: 'Laravel and MySql',
+            tech: 'Laravel',
         },
         {
             title: 'CariParkir CMS',
@@ -43,6 +43,12 @@ const Projects = () => {
             img: '/assets/projects/sipd.png',
             tech: 'Next JS',
         },
+        // {
+        //     title: 'Babek TNI AD',
+        //     url: '',
+        //     img: '/assets/projects/sipd.png',
+        //     tech: 'Laravel (Backend)',
+        // },
     ];
 
     return (

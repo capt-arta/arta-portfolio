@@ -44,8 +44,8 @@ const Navbar = () => {
     const ListMenu = ({href, text}) => {
         return (
             <Link href={href} className="" onClick={()=>setNav(false)}>
-                <li className="">
-                    <span className='uppercase text-md link link-underline link-underline-black transition-all'>
+                <li className="px-3">
+                    <span className='uppercase text-md link link-underline link-underline-black transition-all py-2'>
                         {text}
                     </span>
                 </li>
