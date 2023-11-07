@@ -62,7 +62,7 @@ const Navbar = () => {
         <div className="h-full flex items-center">
             {/* <Image src={'./assets/logo-whitesmoke.svg'} alt='/' height={40} width={40} /> */}
             {/* <span className='text-2xl font-extrabold text-artiysx-smoke -ml-2 h-full items-end'>rtiysx</span> */}
-            <span className='uppercase text-2xl font-extrabold h-full text-artiysx-coksu bg-artiysx-coksu/20 items-end'>{"gatau"}</span>
+            <span className='text-2xl font-extrabold h-full text-artiysx-coksu bg-artiysx-coksu/20 items-end'>{"Arta"}</span>
         </div>
         <div className='flex items-center'>
             <div className="hidden md:flex items-center">
@@ -82,7 +82,7 @@ const Navbar = () => {
                         <div className='flex w-full items-center justify-between pl-10 pr-8 py-7 bg-white'>
                             {/* <Image src={'./assets/logo-whitesmoke.svg'} alt='/' height={40} width={40} /> */}
                             {/* <span className='text-2xl font-extrabold text-artiysx-smoke -ml-2 h-full items-end'>rtiysx</span> */}
-                            <span className='uppercase text-2xl font-extrabold h-full text-artiysx-coksu bg-artiysx-coksu/20 items-end'>{"gatau"}</span>
+                            <span className='text-2xl font-extrabold h-full text-artiysx-coksu bg-artiysx-coksu/20 items-end'>{"Arta"}</span>
                             <div onClick={handleNav} className='cursor-pointer p-2'>
                                 <CloseOutlined className="text-xl font-black" />
                             </div>

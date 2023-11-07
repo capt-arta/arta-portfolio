@@ -6,15 +6,15 @@ const Skills = () => {
     const skillsData = [
         {
             image: './assets/skills/git-icon.svg',
-            text: 'HTML',
+            text: 'GIT',
         },
         {
             image: './assets/skills/html5-icon.svg',
-            text: 'CSS',
+            text: 'HTML',
         },
         {
             image: './assets/skills/css-icon.svg',
-            text: 'GIT',
+            text: 'CSS',
         },
         {
             image: './assets/skills/javascript.svg',
