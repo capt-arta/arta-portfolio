@@ -15,6 +15,8 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
+            I am a person who can communicate well, likes to socialize and can work under pressure. I am very interested in continuing to develop my skills and grow professionally. I am confident in my ability to produce something worthwhile.          </p>
+          <p className='py-2 text-gray-600'>
             I specialize in building mobile responsive front-end UI applications
             that connect with API’s and other backend technologies. I’m
             passionate about learning new technologies and understand there is
@@ -24,9 +26,9 @@ const About = () => {
             needed. I believe that being a great developer is not using one
             specific language, but choosing the best tool for the job.
           </p>
-          <p className='py-2 text-gray-600'>
+          {/* <p className='py-2 text-gray-600'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi tempore atque optio molestias veniam cum ducimus id eaque provident nihil? Reprehenderit temporibus suscipit quos at in voluptas delectus nesciunt nisi. Error aspernatur laboriosam neque unde nulla eaque reiciendis laborum, laudantium, recusandae voluptatibus consectetur repudiandae, cum vel quo corrupti. Sed, ducimus facilis. Molestias, maiores?
-          </p>
+          </p> */}
           <Link href='/#projects' className=''>
             <p className='py-2 text-gray-600 hover:text-artiysx-coksu underline cursor-pointer'>
               Check out some of my latest projects.

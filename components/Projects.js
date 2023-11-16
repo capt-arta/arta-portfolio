@@ -8,10 +8,10 @@ const Projects = () => {
             <div className='relative bg-gray-500 flex items-center justify-center overflow-hidden h-auto w-full shadow-xl  shadow-gray-400 hover:scale-105 rounded-xl group hover:bg-gradient-to-r from-[#72452e] to-[#cb8664] '>
                 <Image className=' group-hover:opacity-10 group-hover:blur-sm aspect-auto' width={700} height={400} objectFit='contain' src={img} alt='/' /> 
                 <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
-                    <h3 className='text-2xl text-white tracking-wider text-center'>{title}</h3>
+                    <h3 className='md:text-2xl text-white tracking-wider text-center'>{title}</h3>
                     <p className='pb-4 pt-2 text-white text-center'>{tech}</p>
                     <Link href={slug} className='flex justify-center'>
-                        <p className='text-center py-3 w-52 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>More Info</p>
+                        <p className='text-center py-3 md:w-52 w-36 rounded-lg bg-white text-gray-700 font-bold md:text-lg cursor-pointer'>More Info</p>
                     </Link>
                 </div>
             </div>
@@ -23,43 +23,43 @@ const Projects = () => {
             title: 'Smart Dashboard Infra Telkomsel',
             img: '/assets/projects/smartdash-infra.png',
             tech: 'Next JS',
-            slug: 'smart-dash-infra',
+            slug: '/smart-dash-infra',
         },
         {
             title: 'Babek TNI AD',
             img: '/assets/projects/babek.png',
             tech: 'Laravel (Backend)',
-            slug: 'babek',
+            slug: '/babek',
         },
         {
             title: 'ITSD Telkomsel Dashboard VoC',
             img: '/assets/projects/itsd.png',
             tech: 'Laravel',
-            slug: 'itsd-telkomsel-dashboard-voc',
+            slug: '/itsd-telkomsel-dashboard-voc',
         },
         {
             title: 'BRI WorkBench',
             img: '/assets/projects/wbench.jpeg',
             tech: 'CodeIgniter',
-            slug: 'bri-workbench',
+            slug: '/bri-workbench',
         },
         {
             title: 'CariParkir CMS (Admin and Portal)',
             img: '/assets/projects/cariparkir.png',
             tech: 'Vue JS and React JS',
-            slug: 'cariparkir-cms',
+            slug: '/cariparkir-cms',
         },
         {
             title: 'Ajari Edutech',
             img: '/assets/projects/ajari.png',
             tech: 'Next JS',
-            slug: 'ajari-edutech',
+            slug: '/ajari-edutech',
         },
         {
             title: 'Dashboard SIPD Kemendagri',
             img: '/assets/projects/sipd.png',
             tech: 'Next JS',
-            slug: 'sipd-dashboard',
+            slug: '/sipd-dashboard',
         },
     ];
 

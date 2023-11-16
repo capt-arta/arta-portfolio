@@ -2,6 +2,8 @@ import { MenuOutlined, CloseOutlined } from '@ant-design/icons'
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
+import { FaLinkedinIn, FaGithub, FaInstagram } from 'react-icons/fa';
+import { SiGmail } from 'react-icons/si';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -9,7 +11,7 @@ const Navbar = () => {
 
     useEffect(()=>{
         const handleShadow = () => {
-            if (window.scrollY >= 90) {
+            if (window.scrollY >= 60) {
                 setShadow(true);
             } else {
                 setShadow(false);
@@ -56,9 +58,44 @@ const Navbar = () => {
     const handleNav = () => {
         setNav(!nav)
     };
+
+    const contactData = [
+        {
+            icon: <FaLinkedinIn />,
+            text: 'linkedin',
+            url: 'https://www.linkedin.com/in/rizqi-arta-fatullah/',
+        },
+        {
+            icon: <FaGithub />,
+            text: 'github',
+            url: 'https://github.com/capt-arta',
+        },
+        {
+            icon: <FaInstagram />,
+            text: 'instagram',
+            url: 'https://www.instagram.com/naefaaa__/',
+        },
+        {
+            icon: <SiGmail />,
+            text: 'email',
+            url: 'mailto:rizqi.arta13@gmail.com',
+        },
+    ];
+    const ContactList = ({icon, text, url}) => {
+
+        return (
+            <Link href={url} passHref rel='noopener noreferrer' target='_blank'>
+                <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease duration-200'>
+                    <div className='text-artiysx-smoke text-3xl'>
+                        {icon}
+                    </div>
+                </div>
+            </Link>
+        );
+    };
     
   return (
-    <div className={`${shadow ? 'shadow-xl' : ''} duration-300 fixed top-0 z-[9999] w-full flex items-center justify-between px-8 py-5 lg:px-24 bg-white `}>
+    <div className={`${shadow ? 'shadow-xl bg-white' : ''} duration-300 fixed top-0 z-[9999] w-full flex items-center justify-between px-8 py-5 lg:px-24`}>
         <div className="h-full flex items-center">
             {/* <Image src={'./assets/logo-whitesmoke.svg'} alt='/' height={40} width={40} /> */}
             {/* <span className='text-2xl font-extrabold text-artiysx-smoke -ml-2 h-full items-end'>rtiysx</span> */}
@@ -96,10 +133,12 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div className='p-10 border-t-2 border-t-artiysx-coksu/50'>
-                        <div className=''>
-                            
+                        <div className='flex items-center justify-center gap-4 md:gap-8 my-auto pb-8'>
+                            {contactData?.map((it, idx)=>{
+                                return <ContactList key={idx} icon={it.icon} url={it.url} />
+                            })}
                         </div>
-                        <div>
+                        <div className='flex items-center justify-center'>
                             &copy; 2023
                         </div>
                     </div>

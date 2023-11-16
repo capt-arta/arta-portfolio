@@ -5,6 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <title>{"Arta's Portfolio"}</title>
+        {/* <link rel = "icon" href = "/assets/logo-yt.jpg" type = "image/x-icon"/>  */}
       </Head>
       <body>
         <Main />
