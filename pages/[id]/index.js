@@ -7,6 +7,7 @@ import About from '@/components/About'
 import Projects from '@/components/Projects'
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,7 +21,7 @@ export default function Home() {
           title: 'Smart Dashboard Infra Telkomsel',
           subTitle: 'Project Management',
           img: '/assets/projects/smartdash-infra.png',
-          tech: 'Next JS / Laravel / MySql Server',
+          tech: ['Next JS', 'Laravel', 'MySql Server'],
           desc: '',
       },
       {
@@ -28,7 +29,7 @@ export default function Home() {
           title: 'Babek TNI AD',
           subTitle: 'TNI AD Inventory',
           img: '/assets/projects/babek.png',
-          tech: 'Laravel (Backend) - Vue JS - PostgreSql',
+          tech: ['Laravel (Backend)', 'Vue JS', 'PostgreSql'],
           desc: '',
       },
       {
@@ -36,7 +37,7 @@ export default function Home() {
           title: 'ITSD Telkomsel Dashboard VoC',
           subTitle: 'Monitoring VoC',
           img: '/assets/projects/itsd.png',
-          tech: 'Laravel',
+          tech: ['Laravel'],
           desc: '',
       },
       {
@@ -44,7 +45,7 @@ export default function Home() {
           title: 'BRI WorkBench',
           subTitle: 'RM Performance Monitor',
           img: '/assets/projects/wbench.jpeg',
-          tech: 'CodeIgniter - SQL Server',
+          tech: ['CodeIgniter', 'SQL Server'],
           desc: '',
       },
       {
@@ -52,7 +53,7 @@ export default function Home() {
           title: 'CariParkir CMS (Admin and Portal)',
           subTitle: 'Content Management System (CMS)',
           img: '/assets/projects/cariparkir.png',
-          tech: 'Vue JS - React JS - Java - Nest JS',
+          tech: ['Vue JS', 'React JS', 'Java', 'Nest JS'],
           desc: '',
       },
       {
@@ -60,7 +61,7 @@ export default function Home() {
           title: 'Ajari Edutech',
           subTitle: 'Edutech with Live Quiz on Online Video Conference',
           img: '/assets/projects/ajari.png',
-          tech: 'Next JS - Nest JS - PostgreSql',
+          tech: ['Next JS', 'Nest JS', 'PostgreSql'],
           desc: '',
       },
       {
@@ -68,7 +69,7 @@ export default function Home() {
           title: 'Dashboard SIPD Kemendagri',
           subTitle: 'APBD Monitoring',
           img: '/assets/projects/sipd.png',
-          tech: 'Next JS - Nest JS - PostgreSql',
+          tech: ['Next JS', 'Nest JS', 'PostgreSql'],
           desc: '',
       },
   ];
@@ -82,16 +83,23 @@ export default function Home() {
       }
     })
   },[router.query.id])
-  console.log(data);
+
+
+
   return (
     loading ? <></> 
     : <div className='w-full'>
         <div className='w-screen h-[30vh] relative shadow-md'>
             <div className='absolute w-full h-[30vh] bg-black/60 z-10'/>
             <Image className='absolute z-[1] blur-sm' src={data.img} objectFit='cover' layout='fill' alt='/' />
-            <div className='absolute top-[75%] max-w-[1240px] w-full left-[50%] right-[50%] -translate-x-[50%] -translate-y-[50%] text-white z-10 px-6 xl:p-0'>
+            <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] -translate-x-[50%] -translate-y-[50%] text-white z-10 px-6 xl:p-0'>
                 <h2 className='py-2 '>{data.title}</h2>
                 <h3 className='font-normal' >{data.subTitle}</h3>
+                <div className='h-4 w-56 mt-4 rounded-full cursor-pointer group'>
+                  <Link className='group-hover:text-artiysx-coksu' href={'../#projects'} passHref>
+                    <span className='font-bold text-lg'>&#8636;</span> Back
+                  </Link>
+                </div>
             </div>
         </div>
     </div>

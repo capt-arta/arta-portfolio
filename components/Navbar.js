@@ -95,12 +95,10 @@ const Navbar = () => {
     };
     
   return (
-    <div className={`${shadow ? 'shadow-xl bg-white' : ''} duration-300 fixed top-0 z-[9999] w-full flex items-center justify-between px-8 py-5 lg:px-24`}>
-        <div className="h-full flex items-center">
-            {/* <Image src={'./assets/logo-whitesmoke.svg'} alt='/' height={40} width={40} /> */}
-            {/* <span className='text-2xl font-extrabold text-artiysx-smoke -ml-2 h-full items-end'>rtiysx</span> */}
+    <div className={`${shadow ? 'shadow-xl bg-white' : ''} duration-300 fixed top-0 z-[9999] w-full flex items-center justify-center px-8 py-5 lg:px-24`}>
+        {/* <div className="h-full flex items-center">
             <span className='text-2xl font-extrabold h-full text-artiysx-coksu bg-artiysx-coksu/20 items-end'>{"Arta"}</span>
-        </div>
+        </div> */}
         <div className='flex items-center'>
             <div className="hidden md:flex items-center">
             <ul className="flex gap-6 items-center list-none">
