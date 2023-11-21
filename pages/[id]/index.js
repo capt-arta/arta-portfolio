@@ -175,7 +175,7 @@ export default function Index() {
         <div className='w-screen h-[30vh] relative shadow-md'>
             <div className='absolute w-full h-[30vh] bg-black/60 z-10'/>
             <Image className='absolute z-[1] blur-sm' src={data.img} objectFit='cover' layout='fill' alt='/' />
-            <div className='absolute top-[74%] max-w-[1240px] w-full left-[50%] right-[50%] -translate-x-[50%] -translate-y-[50%] text-white z-10 px-6 xl:p-0'>
+            <div className='absolute top-[20vh] max-w-[1240px] w-full left-[50%] right-[50%] -translate-x-[50%] -translate-y-[50%] text-white z-10 px-6 xl:p-0'>
                 <h2 className='py-2'>{data.title}</h2>
                 <h3 className='font-normal' >{data.subTitle}</h3>
             </div>
@@ -198,7 +198,7 @@ export default function Index() {
                   <Link href={data?.url.demo} legacyBehavior aria-disabled>
                     <a target="_blank" rel="noopener noreferrer">
                       <div className='px-4 py-2 rounded-lg bg-slate-700 text-white text-sm hover:scale-95 hover:bg-slate-500 uppercase'>
-                        demo
+                        url
                       </div>
                     </a>
                   </Link>
@@ -212,7 +212,7 @@ export default function Index() {
                     </a>
                   </Link>
                 }
-                {!data?.url.code && !data?.url.demo ? <Tag color="error">{`I'm sorry, demos and code cannot be displayed.`}</Tag> : ''}
+                {!data?.url.code && !data?.url.demo ? <Tag color="error">{`I'm sorry, url and code cannot be displayed.`}</Tag> : ''}
               </div>
             </div>
 
