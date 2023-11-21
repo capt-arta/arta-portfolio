@@ -224,7 +224,7 @@ export default function Index() {
             </div>
           </div>
 
-          <div className='max-w-[1240px] w-full mx-auto h-fit mt-4'>
+          <div className='max-w-[1240px] w-full mx-auto h-fit mt-4 pb-10'>
             <div className='w-fit rounded-full cursor-pointer hover:text-artiysx-coksu'>
               <Link className='' href={'../#projects'} passHref>
                 <span className='font-bold text-lg px-3'>&#8636;</span> Back
