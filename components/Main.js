@@ -51,8 +51,8 @@ const Main = () => {
                             {"let's build something together"}
                         </span>
                     </p>
-                    <h1 className='mt-4 '>{"Hi! I'm "}<span className='px-2 text-artiysx-coksu bg-artiysx-coksu/20'>Arta</span>.</h1>
-                    <h1 className='mt-2 '>A Front-End Developer.</h1>
+                    <h1 className='mt-4 '>{"Hi! I'm "}<span className='px-2 text-artiysx-coksu bg-artiysx-coksu/20'>Arta</span>,</h1>
+                    <h1 className='mt-2 '>a Front-End Developer.</h1>
                     <p className='mt-4 text-artiysx-smoke'>
                         {"I'm a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on building responsive front-end web applications while learning back-end technologies."}
                     </p>

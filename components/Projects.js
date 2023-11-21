@@ -5,12 +5,13 @@ import React from 'react'
 const Projects = () => {
     const ProjectItem = ({title, img, tech, slug}) => {
         return (
-            <div className='relative bg-gray-700 flex items-center justify-center overflow-hidden h-auto w-full shadow-xl  shadow-gray-400 hover:scale-105 rounded-xl group hover:bg-gradient-to-r from-[#72452e] to-[#cb8664] '>
+            <div className='relative bg-gray-800 flex items-center justify-center overflow-hidden h-auto w-full shadow-xl  shadow-gray-400 hover:scale-105 rounded-xl group hover:bg-gradient-to-b from-[#72452e75] to-[#cb8664] '>
                 <Link href={slug}>
-                    <Image className=' opacity-40 blur-[2px] group-hover:opacity-10 group-hover:blur-sm ' width={700} height={400} objectFit='contain' src={img} alt='/' /> 
+                    <Image className=' opacity-40 blur-[2px] group-hover:opacity-10 group-hover:blur-sm ' width={700} height={400} objectFit='contain' layout='fixed' src={img} alt={`/${title}`} /> 
                     <div className='absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
                         <h3 className='md:text-2xl text-white tracking-wider text-center'>{title}</h3>
-                        <p className='pb-4 pt-2 text-white text-center'>{tech}</p>
+                        <p className='pt-2 text-white text-center'>{tech}</p>
+                        {/* <p className='pb-4 pt-2 text-white text-center'>{tech}</p> */}
                         {/* <Link href={slug} className='flex justify-center'>
                             <p className='hidden group-hover:block text-center py-3 md:w-52 w-36 rounded-lg bg-white text-gray-700 font-bold md:text-lg cursor-pointer'>More Info</p>
                         </Link> */}

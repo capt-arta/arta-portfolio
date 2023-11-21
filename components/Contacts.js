@@ -42,7 +42,7 @@ const Contacts = () => {
     };
 
     return (
-        <div id='home' className='w-full h-full text-center bg-artiysx-smoke'>
+        <div id='contact' className='w-full h-full text-center bg-artiysx-smoke'>
             <div className='p-10'>
                 <div className='flex items-center justify-center gap-4 md:gap-8 my-auto pb-8'>
                     {contactData?.map((it, idx)=>{

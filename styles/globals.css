@@ -1,9 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter');
 
 html {
   scroll-behavior: smooth !important;
+  font-family: 'Inter', sans-serif;
 }
 
 @layer base {
@@ -52,6 +54,7 @@ body {
 /* div, span, p {
   color: #ffffff;
 } */
+
 
 .link-underline {
   border-bottom-width: 0;
