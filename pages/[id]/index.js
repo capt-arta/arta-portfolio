@@ -1,17 +1,11 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import Navbar from '@/components/Navbar'
-import Main from '@/components/Main'
-import Skills from '@/components/Skills'
-import About from '@/components/About'
-import Projects from '@/components/Projects'
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
+import { Skeleton } from 'antd'
 
-const inter = Inter({ subsets: ['latin'] })
-
-export default function Home() {
+export default function Index() {
   const router = useRouter();
   const [data, setData] = useState({});
   const [loading, setLoading] = useState(true);
@@ -79,15 +73,36 @@ export default function Home() {
         setData(it)
         setTimeout(() => {
           setLoading(false);
-        }, 200);
+        }, 1000);
       }
     })
   },[router.query.id])
 
-
-
   return (
-    loading ? <></> 
+    loading ? <div className='w-full'>
+        <div className='w-screen h-[30vh] relative shadow-md'>
+            <div className='absolute w-full h-[30vh] bg-black/90 z-10'/>
+            {/* <Image className='absolute z-[1] blur-sm' src={data.img} objectFit='cover' layout='fill' alt='/' /> */}
+            <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] -translate-x-[50%] -translate-y-[50%] text-white z-10 px-6 xl:p-0'>
+                <h2 className='py-2 '>
+                  {/* <Skeleton active title/> */}
+                </h2>
+                <h3 className='font-normal' >
+                  {/* <Skeleton active title/> */}
+                </h3>
+                <div className='h-4 w-56 mt-4 rounded-full cursor-pointer group'>
+                  <Link className='group-hover:text-artiysx-coksu' href={'../#projects'} passHref>
+                    {/* <Skeleton active title/> */}
+                  </Link>
+                </div>
+            </div>
+        </div>
+        <div className='max-w-[1240px] w-full mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
+          <div className='col-span-4'>
+            <Skeleton active/>
+          </div>
+        </div>
+    </div>
     : <div className='w-full'>
         <div className='w-screen h-[30vh] relative shadow-md'>
             <div className='absolute w-full h-[30vh] bg-black/60 z-10'/>

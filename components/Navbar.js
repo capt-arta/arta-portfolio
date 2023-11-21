@@ -95,20 +95,22 @@ const Navbar = () => {
     };
     
   return (
-    <div className={`${shadow ? 'shadow-xl bg-white' : ''} duration-300 fixed top-0 z-[9999] w-full flex items-center justify-center px-8 py-5 lg:px-24`}>
+    <div className={`${shadow ? 'shadow-xl bg-white' : ''} bg-white duration-300 fixed top-0 z-[9999] w-full flex items-center justify-center px-8 py-5 lg:px-24`}>
         {/* <div className="h-full flex items-center">
             <span className='text-2xl font-extrabold h-full text-artiysx-coksu bg-artiysx-coksu/20 items-end'>{"Arta"}</span>
         </div> */}
-        <div className='flex items-center'>
-            <div className="hidden md:flex items-center">
-            <ul className="flex gap-6 items-center list-none">
+        <div className='flex items-center w-full'>
+            <div className="hidden md:flex items-center w-full">
+            <ul className="flex gap-6 items-center w-full justify-center list-none">
                 {dataMenu.map((it, idx)=>{
                     return <ListMenu key={idx} href={it.id} text={it.text} />
                 })}
             </ul>
             </div>
-            <div onClick={handleNav} className='md:hidden cursor-pointer p-2'>
-                <MenuOutlined className="text-xl font-black" />
+            <div className='md:hidden w-full h-full flex items-end justify-end'>
+                <div onClick={handleNav} className='cursor-pointer p-2'>
+                    <MenuOutlined className="text-xl font-black" />
+                </div>
             </div>
             {/* mobile nav */}
             <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/30' : ''}>
