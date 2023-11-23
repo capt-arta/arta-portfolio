@@ -32,7 +32,7 @@ const Contacts = () => {
             <Link href={url} legacyBehavior>
                 <a target="_blank" rel="noopener noreferrer" className='group'>
                     <div className='flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4'>
-                        <div className='p-2 flex items-center text-4xl text-artiysx-coksu group-hover:text-artiysx-black justify-center rounded-full w-16 h-16' style={{boxShadow: '0 0 10px rgba(0,0,0,.1)'}}>
+                        <div className='p-2 flex items-center text-4xl text-artiysx-coksu justify-center rounded-full w-16 h-16' style={{boxShadow: '0 0 10px rgba(0,0,0,.1)'}}>
                             {icon}
                         </div>
                         <div className='md:h-[90%] flex flex-col justify-between'>
@@ -46,7 +46,7 @@ const Contacts = () => {
     }
 
     return (
-        <div id='contact' className='w-full'>
+        <div id='contact' className='w-full pb-12'>
                 <div className='max-w-[1240px] mx-auto px-8 py-12 mt-16'>
                     <p className='tracking-widest text-xl font-medium '>
                         <span className='bg-artiysx-coksu/20 text-artiysx-coksu'>
@@ -54,7 +54,7 @@ const Contacts = () => {
                         </span>
                     </p>
                     <h2 className='py-4'>Get in Touch with Me</h2>
-                    <div className='pt-6 flex flex-col md:flex-row gap-10'>
+                    <div className='pt-6 flex flex-col md:flex-row gap-10 md:gap-28'>
                         {contactData.map((it, idx) => <ContactList key={idx} title={it.title} desc={it.desc} url={it.url} icon={it.icon} />)}
                     </div>
                 </div>
