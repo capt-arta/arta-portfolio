@@ -6,6 +6,7 @@ import Skills from '@/components/Skills'
 import About from '@/components/About'
 import Projects from '@/components/Projects'
 import Footer from '@/components/Footer'
+import Contacts from '@/components/Contacts'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,6 +20,7 @@ export default function Home() {
       <About />
       <Skills />
       <Projects />
+      <Contacts />
       <Footer  />
     </div>
   )

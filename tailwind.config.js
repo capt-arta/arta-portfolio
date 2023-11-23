@@ -15,7 +15,8 @@ module.exports = {
       colors: {
         'artiysx-smoke': '#989898 ',
         'artiysx-blusky': '#38bdf8',
-        'artiysx-coksu': '#d9b29e',
+        'artiysx-coksu': '#147efb',
+        // 'artiysx-coksu': '#d9b29e',
         'artiysx-black': '#2d2e32',
         'navbg': '#272829',
       },

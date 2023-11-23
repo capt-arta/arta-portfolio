@@ -5,7 +5,8 @@ import React from 'react'
 const Projects = () => {
     const ProjectItem = ({title, img, tech, slug}) => {
         return (
-            <div className='relative bg-gray-800 flex items-center justify-center overflow-hidden h-auto w-full shadow-xl  shadow-gray-400 hover:scale-105 rounded-xl group hover:bg-gradient-to-b from-[#72452e75] to-[#cb8664] '>
+            // <div className='relative bg-gray-800 flex items-center justify-center overflow-hidden h-auto w-full shadow-xl  shadow-gray-400 hover:scale-105 rounded-xl group hover:bg-gradient-to-b from-[#72452e75] to-[#cb8664] '>
+            <div className='relative bg-gray-800 flex items-center justify-center overflow-hidden h-auto w-full shadow-xl  shadow-gray-400 hover:scale-105 rounded-xl group hover:bg-gradient-to-b from-[#147efb25] to-[#147efb] '>
                 <Link href={slug}>
                     <Image className=' opacity-40 blur-[2px] group-hover:opacity-10 group-hover:blur-sm ' width={700} height={400} objectFit='contain' layout='fixed' src={img} alt={`/${title}`} /> 
                     <div className='absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>

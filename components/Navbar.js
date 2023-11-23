@@ -47,7 +47,7 @@ const Navbar = () => {
         return (
             <Link href={href} className="" onClick={()=>setNav(false)}>
                 <li className="">
-                    <span className='uppercase tracking-widest text-md font-semibold text-xl link link-underline link-underline-black transition-all py-2'>
+                    <span className='uppercase tracking-widest text-md font-semibold text-xl md:text-base link link-underline link-underline-black transition-all py-2'>
                         {text}
                     </span>
                 </li>
@@ -101,7 +101,9 @@ const Navbar = () => {
         </div> */}
         <div className='flex items-center w-full'>
             <div className="hidden md:flex items-center w-full justify-between">
-                <div className='font-black text-xl'>Arta.dev</div>
+                {/* <Link href={'/#home'} className="" > */}
+                    <div className='font-black text-xl'>Arta.dev</div>
+                {/* </Link> */}
                 <ul className="flex gap-8 items-end w-full justify-end list-none">
                     {dataMenu.map((it, idx)=>{
                         return <ListMenu key={idx} href={it.id} text={it.text} />

@@ -38,7 +38,7 @@ html {
 }
 
 * {
-  transition: all 0.5s;
+  transition: all 0.2s;
 }
 
 @keyframes morph {
@@ -92,7 +92,8 @@ body {
 }
 
 .link-underline-black {
-  background-image: linear-gradient(transparent, transparent), linear-gradient(#d9b29e,#d9b29e)
+  /* background-image: linear-gradient(transparent, transparent), linear-gradient(#d9b29e,#d9b29e) */
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#147efb,#1480fb8e)
 }
 
 .link-underline:hover {
