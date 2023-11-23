@@ -47,7 +47,7 @@ const Navbar = () => {
         return (
             <Link href={href} className="" onClick={()=>setNav(false)}>
                 <li className="">
-                    <span className='uppercase tracking-widest text-md font-semibold text-xl md:text-base link link-underline link-underline-black transition-all py-2'>
+                    <span className='uppercase tracking-widest text-md font-semibold text-xl md:text-sm link link-underline link-underline-black transition-all py-2'>
                         {text}
                     </span>
                 </li>
