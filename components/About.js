@@ -1,12 +1,12 @@
-import Image from 'next/image';
-import Link from 'next/link';
 import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 // import arta from '/public/assets/arta-bgblur.png'
 
 const About = () => {
   return (
     <div id='about' className='w-full md:h-screen p-8 flex items-center py-16'>
-      <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
+      <div className='max-w-[1240px] m-auto md:grid grid-cols-3 flex flex-col-reverse gap-8'>
         <div className='col-span-2'>
           <p className='tracking-widest text-xl font-medium '>
                 <span className='bg-artiysx-coksu/20 text-artiysx-coksu'>
@@ -15,7 +15,9 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
-            I am a person who can communicate well, likes to socialize and can work under pressure. I am very interested in continuing to develop my skills and grow professionally. I am confident in my ability to produce something worthwhile.          </p>
+            Hi, {"I'm"} <span className='text-lg font-semibold'>Rizqi Arta Fatullah</span>. A passionate Front-end Developer based in Jakarta, Indonesia. 📍
+            {/* I am a person who can communicate well, likes to socialize and can work under pressure. I am very interested in continuing to develop my skills and grow professionally. I am confident in my ability to produce something worthwhile. */}
+          </p>
           <p className='py-2 text-gray-600'>
             I specialize in building mobile responsive front-end UI applications
             that connect with API’s and other backend technologies. I’m
@@ -26,9 +28,6 @@ const About = () => {
             needed. I believe that being a great developer is not using one
             specific language, but choosing the best tool for the job.
           </p>
-          {/* <p className='py-2 text-gray-600'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi tempore atque optio molestias veniam cum ducimus id eaque provident nihil? Reprehenderit temporibus suscipit quos at in voluptas delectus nesciunt nisi. Error aspernatur laboriosam neque unde nulla eaque reiciendis laborum, laudantium, recusandae voluptatibus consectetur repudiandae, cum vel quo corrupti. Sed, ducimus facilis. Molestias, maiores?
-          </p> */}
           <Link href='/#projects' className=''>
             <p className='py-2 text-gray-600 hover:text-artiysx-coksu underline cursor-pointer'>
               Check out some of my latest projects.
@@ -40,8 +39,7 @@ const About = () => {
           <Image src={arta} className='rounded-xl' alt='/' width={400} height={400} />
         </div> */}
         <div className='flex items-center justify-center md:justify-end w-full h-full'>
-          <div className={`w-full hero-image xl:w-[300px] xl:w-[400px] xl:h-[300px] xl:h-[400px]`} >
-        </div>
+          <div className={`w-full hero-image xl:w-[300px] xl:w-[400px] xl:h-[300px] xl:h-[400px]`} ></div>
         </div>
 
       </div>
