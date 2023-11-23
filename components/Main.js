@@ -56,11 +56,11 @@ const Main = () => {
                     <p className='mt-4 text-artiysx-smoke'>
                         {"I'm a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on building responsive front-end web applications while learning back-end technologies."}
                     </p>
-                    <div className='flex items-center justify-center gap-4 md:gap-8 my-auto py-8'>
+                    {/* <div className='flex items-center justify-center gap-4 md:gap-8 my-auto py-8'>
                         {contactData?.map((it, idx)=>{
                             return <ContactList key={idx} icon={it.icon} url={it.url} />
                         })}
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

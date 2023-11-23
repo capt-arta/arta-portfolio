@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import arta from '/public/assets/arta-bgblur.png'
+// import arta from '/public/assets/arta-bgblur.png'
 
 const About = () => {
   return (
@@ -36,9 +36,14 @@ const About = () => {
           </Link>
         </div>
         {/* <div className='w-full h-auto m-auto rounded-xl flex items-center justify-center p-4 bg-artiysx-coksu/90'> */}
-        <div className='w-full h-auto m-auto rounded-xl flex items-center justify-center p-4 inset-0 bg-grid-slate-900/[0.04] bg-[bottom_1px_center] dark:bg-grid-slate-400/[0.05] dark:bg-bottom dark:border-b dark:border-slate-100/5'>
+        {/* <div className='w-full h-auto m-auto rounded-xl flex items-center justify-center p-4 inset-0 bg-grid-slate-900/[0.04] bg-[bottom_1px_center] dark:bg-grid-slate-400/[0.05] dark:bg-bottom dark:border-b dark:border-slate-100/5'>
           <Image src={arta} className='rounded-xl' alt='/' width={400} height={400} />
+        </div> */}
+        <div className='flex items-center justify-center md:justify-end w-full h-full'>
+          <div className={`w-full hero-image xl:w-[300px] xl:w-[400px] xl:h-[300px] xl:h-[400px]`} >
         </div>
+        </div>
+
       </div>
     </div>
   )

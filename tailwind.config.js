@@ -16,6 +16,7 @@ module.exports = {
         'artiysx-smoke': '#989898 ',
         'artiysx-blusky': '#38bdf8',
         'artiysx-coksu': '#d9b29e',
+        'artiysx-black': '#2d2e32',
         'navbg': '#272829',
       },
       // screens: {

@@ -224,10 +224,10 @@ export default function Index() {
             </div>
           </div>
 
-          <div className='max-w-[1240px] w-full mx-auto h-fit mt-4 pb-10'>
+          <div className='max-w-[1240px] w-full mx-auto h-fit mt-4 pb-10 px-6 xl:px-0'>
             <div className='w-fit rounded-full cursor-pointer hover:text-artiysx-coksu'>
-              <Link className='' href={'../#projects'} passHref>
-                <span className='font-bold text-lg px-3'>&#8636;</span> Back
+              <Link className='pr-3' href={'../#projects'} passHref>
+                <span className='font-bold text-lg pr-2'>&#8636;</span> Back
               </Link>
             </div>
           </div>
