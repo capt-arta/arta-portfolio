@@ -28,16 +28,34 @@ const Main = () => {
             url: 'mailto:rizqi.arta13@gmail.com',
         },
     ];
-    const ContactList = ({icon, text, url}) => {
 
+    const coder = [{
+        icon: <FaLinkedinIn />,
+        text: 'LinkedIn',
+        url: 'https://www.linkedin.com/in/rizqi-arta-fatullah/',
+    },
+    {
+        icon: <FaGithub />,
+        text: 'Github',
+        url: 'https://github.com/capt-arta',
+    }]
+
+    const ContactList = ({icon, text, url}) => {
         return (
-            <Link href={url} passHref rel='noopener noreferrer' target='_blank'>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease duration-200'>
-                    <div className='text-artiysx-smoke text-3xl'>
-                        {icon}
+            // <Link href={url} passHref rel='noopener noreferrer' target='_blank'>
+            //     <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease duration-200'>
+            //         <div className='text-artiysx-smoke text-3xl'>
+            //             {icon}
+            //         </div>
+            //     </div>
+            // </Link>
+                <Link href={url} passHref rel='noopener noreferrer' target='_blank'>
+                    <div className='flex flex-col items-center'>
+                        <div className='text-artiysx-black text-4xl cursor-pointer hover:-translate-y-1 hover:text-artiysx-coksu duration-75'>
+                            {icon}
+                        </div>
                     </div>
-                </div>
-            </Link>
+                </Link>
         );
     };
 
@@ -56,11 +74,12 @@ const Main = () => {
                     <p className='mt-4 text-artiysx-smoke'>
                         {"I'm a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on building responsive front-end web applications while learning back-end technologies."}
                     </p>
-                    {/* <div className='flex items-center justify-center gap-4 md:gap-8 my-auto py-8'>
-                        {contactData?.map((it, idx)=>{
+                    <div className='flex items-center justify-center gap-4 md:gap-8 my-auto py-8'>
+                        {/* {contactData?.map((it, idx)=>{
                             return <ContactList key={idx} icon={it.icon} url={it.url} />
-                        })}
-                    </div> */}
+                        })} */}
+                        {coder?.map((it, idx) => (<ContactList key={idx} icon={it.icon} url={it.url} />))}
+                    </div>
                 </div>
             </div>
         </div>

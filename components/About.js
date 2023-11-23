@@ -39,7 +39,7 @@ const About = () => {
           <Image src={arta} className='rounded-xl' alt='/' width={400} height={400} />
         </div> */}
         <div className='flex items-center justify-center md:justify-end w-full h-full'>
-          <div className={`w-full hero-image xl:w-[300px] xl:w-[400px] xl:h-[300px] xl:h-[400px]`} ></div>
+          <div className={`w-full hero-image lg:w-[300px] xl:w-[400px] lg:h-[300px] xl:h-[400px]`} ></div>
         </div>
 
       </div>
