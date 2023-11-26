@@ -54,10 +54,14 @@ html {
   }
 }
 
+.animate-morph {
+  animation: morph 8s ease-in-out infinite;
+}
+
 .hero-image {
   height: 280px;
   width: 280px;
-  background-image: url('/assets/arta-bgblur.png');
+  background-image: url('/assets/self-img.jpeg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -65,6 +69,7 @@ html {
   border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   border: 3px solid #2d2e32;
 }
+
 
 body {
   /* background-image: url('../public/assets/bg-page.svg'); */
