@@ -31,7 +31,7 @@ const Contacts = () => {
         return (<>
             <Link href={url} legacyBehavior>
                 <a target="_blank" rel="noopener noreferrer" className='group'>
-                    <div className='flex flex-col md:flex-row items-center justify-center mx-auto gap-2 md:gap-4 md:justify-normal rounded-2xl hover:drop-shadow-2xl hover:-translate-y-2 p-4 w-[300px]' style={{boxShadow: '0 0 10px rgba(0,0,0,.1)'}}>
+                    <div className='flex flex-col md:flex-row items-center justify-center mx-auto gap-2 md:gap-4 md:justify-normal rounded-2xl hover:drop-shadow-2xl hover:-translate-y-2 p-4 w-[300px] transition-all' style={{boxShadow: '0 0 10px rgba(0,0,0,.1)'}}>
                         <div className='p-2 flex items-center text-4xl text-artiysx-coksu justify-center rounded-full w-16 h-16' style={{boxShadow: '0 0 10px rgba(0,0,0,.1)'}}>
                             {icon}
                         </div>

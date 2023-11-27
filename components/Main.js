@@ -3,6 +3,7 @@ import { useRouter } from 'next/router';
 import React from 'react'
 import { FaLinkedinIn, FaGithub, FaInstagram } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
+import ParticlesBackground from './Particles';
 
 const Main = () => {
     const router = useRouter();
@@ -61,9 +62,10 @@ const Main = () => {
 
     return (
         <div id='home' className='w-full h-screen text-center'>
-            <div className='max-w-[1240px] w-full h-full mx-auto p-8 flex justify-center items-center'>
+            <ParticlesBackground />
+            <div className='max-w-[1240px] w-full h-full mx-auto p-8 flex justify-center items-center bg-white'>
                 {/* <div className='pt-16 border-b-4 border-b-artiysx-coksu/50'> */}
-                <div className='pt-16'>
+                <div className='pt-16 z-[999]'>
                     <p className='uppercase text-sm tracking-widest text-artiysx-smoke'>
                         <span className=' bg-artiysx-smoke/20'>
                             {"let's build something together"}
@@ -71,7 +73,8 @@ const Main = () => {
                     </p>
                     <h1 className='mt-4 '>{"Hi! I'm "}<span className='px-2 text-artiysx-coksu bg-artiysx-coksu/20'>Arta</span>,</h1>
                     <h1 className='mt-2 '>a Front-End Developer.</h1>
-                    <p className='mt-4 text-artiysx-smoke'>
+                    <p className='mt-4 text-artiysx-smoke max-w-[720px]'>
+                        {/* {"let's build something together"} */}
                         {"I'm a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on building responsive front-end web applications while learning back-end technologies."}
                     </p>
                     <div className='flex items-center justify-center gap-4 md:gap-8 my-auto py-8'>
@@ -90,5 +93,11 @@ const Main = () => {
         </div>
     )
 }
+
+Main.getLayout = function Layout(page) {
+    return <ParticlesBackground>
+        {page}
+    </ParticlesBackground>;
+};
 
 export default Main;
