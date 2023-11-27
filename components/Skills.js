@@ -62,12 +62,12 @@ const Skills = () => {
     const SkillsCard = ({text, image}) => {
         return (
             <div className='p-6  shadow-lg rounded-xl hover:shadow-xl hover:scale-105 ease duration-200'>
-                <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                <div className='grid sm:grid-cols-2 gap-4 justify-center items-center'>
                     <div className='m-auto'>
                         <Image src={image} alt='/' className='aspect-square w-[64px] h-[64px] object-contain' width={64} height={64} />
                     </div>
                     <div className='tracking-wide flex flex-col items-center justify-center'>
-                        <h3>{text}</h3>
+                        <h3 className='text-center'>{text}</h3>
                     </div>
                 </div>
             </div>
@@ -85,7 +85,7 @@ const Skills = () => {
                 <h2 className='py-3'>
                     What I Can Do
                 </h2>
-                <div className='grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-4'>
+                <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-4'>
                     {skillsData?.map((it, idx)=>{
                         return <SkillsCard key={idx} text={it.text} image={it.image} />
                     })}
