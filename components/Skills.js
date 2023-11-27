@@ -75,7 +75,7 @@ const Skills = () => {
     }
 
     return (
-        <div id='skills' className='w-full lg:h-screen p-8'>
+        <div id='skills' className='w-full lg:h-screen p-8 py-24'>
             <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full' >
                 <p className='tracking-widest text-xl font-medium '>
                     <span className='bg-artiysx-coksu/20 text-artiysx-coksu'>

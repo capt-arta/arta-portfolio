@@ -101,9 +101,9 @@ const Navbar = () => {
         </div> */}
         <div className='flex items-center w-full'>
             <div className="hidden md:flex items-center w-full justify-between">
-                {/* <Link href={'/#home'} className="" > */}
+                <Link href={'/'} className="" >
                     <div className='font-black text-xl'>Arta.dev</div>
-                {/* </Link> */}
+                </Link>
                 <ul className="flex gap-8 items-end w-full justify-end list-none">
                     {dataMenu.map((it, idx)=>{
                         return <ListMenu key={idx} href={it.id} text={it.text} />
@@ -111,7 +111,9 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className='md:hidden w-full h-full flex items-center justify-between'>
-                <div className='font-black text-xl'>Arta.dev</div>
+                <Link href={'/'} className="" >
+                    <div className='font-black text-xl'>Arta.dev</div>
+                </Link>
                 <div onClick={handleNav} className='cursor-pointer p-2'>
                     <MenuOutlined className="text-xl font-black" />
                 </div>

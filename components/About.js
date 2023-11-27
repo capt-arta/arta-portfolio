@@ -28,6 +28,13 @@ const About = () => {
             needed. I believe that being a great developer is not using one
             specific language, but choosing the best tool for the job.
           </p>
+          <Link href='https://drive.google.com/file/d/1hpYJLjBm2TT84Q-92DF8pkJO0pPP2TJG/view?usp=sharing' className='' legacyBehavior >
+            <a target="_blank" rel="noopener noreferrer" >
+              <p className='py-2 text-gray-600 hover:text-artiysx-coksu underline cursor-pointer'>
+                Check out some of CV.
+              </p>
+            </a>
+          </Link>
           <Link href='/#projects' className=''>
             <p className='py-2 text-gray-600 hover:text-artiysx-coksu underline cursor-pointer'>
               Check out some of my latest projects.

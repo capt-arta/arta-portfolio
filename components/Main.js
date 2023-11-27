@@ -65,7 +65,7 @@ const Main = () => {
             <ParticlesBackground />
             <div className='max-w-[1240px] w-full h-full mx-auto p-8 flex justify-center items-center bg-white'>
                 {/* <div className='pt-16 border-b-4 border-b-artiysx-coksu/50'> */}
-                <div className='pt-16 z-[999]'>
+                <div className='m-auto pt-[68px] z-[999]'>
                     <p className='uppercase text-sm tracking-widest text-artiysx-smoke'>
                         <span className=' bg-artiysx-smoke/20'>
                             {"let's build something together"}
