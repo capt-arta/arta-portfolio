@@ -6,6 +6,7 @@ export default function Document() {
       <Head>
         <title>{"Arta's Portfolio"}</title>
         {/* <link rel = "icon" href = "/assets/logo-yt.jpg" type = "image/x-icon"/>  */}
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></link>
       </Head>
       <body>
         <Main />
