@@ -62,7 +62,7 @@ const Skills = () => {
 
     const SkillsCard = ({text, image}) => {
         return (
-            <ScrollAnimation animateIn='slideInRight' animateOnce>
+            <ScrollAnimation animateIn='slideInUp' animateOnce>
                 <div className='p-6  shadow-lg rounded-xl hover:shadow-xl hover:scale-105 ease duration-200'>
                     <div className='grid sm:grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>

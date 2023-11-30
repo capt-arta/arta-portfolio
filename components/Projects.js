@@ -6,7 +6,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 const Projects = () => {
     const ProjectItem = ({title, img, tech, slug}) => {
         return (
-            <ScrollAnimation animateIn='slideInRight' animateOnce>
+            <ScrollAnimation animateIn='slideInUp' animateOnce>
                 {/* // <div className='relative bg-gray-800 flex items-center justify-center overflow-hidden h-auto w-full shadow-xl  shadow-gray-400 hover:scale-105 rounded-xl group hover:bg-gradient-to-b from-[#72452e75] to-[#cb8664] '> */}
                 <div className='relative bg-gray-800 flex items-center justify-center overflow-hidden h-auto w-full shadow-xl  shadow-gray-400 hover:scale-105 rounded-xl transition-all group hover:bg-gradient-to-b from-[#147efb25] to-[#147efb] '>
                     <Link href={slug}>
