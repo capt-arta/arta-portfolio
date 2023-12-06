@@ -149,7 +149,7 @@ const Navbar = () => {
                 </div>
             </div> */}
             <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/30' : ''}>
-                <div className={nav ? 'flex flex-col justify-between fixed left-0 top-0 w-[100%] sm:w-[60%] h-screen bg-white ease-in duration-300 shadow-xl': 'flex flex-col justify-between fixed top-0 left-[-100%] w-[90%] sm:w-[50%] h-screen bg-white ease-in duration-300 shadow-xl'}>
+                <div className={nav ? 'flex flex-col justify-between fixed left-0 top-0 w-[100%] h-screen bg-white ease-in duration-300 shadow-xl': 'flex flex-col justify-between fixed top-0 left-[-100%] w-[90%] sm:w-[50%] h-screen bg-white ease-in duration-300 shadow-xl'}>
                     <div className='w-full h-[calc(100%-200px)]'>
                         <div className='flex w-full items-center justify-end pl-10 pr-8 py-7 bg-white'>
                             <div onClick={handleNav} className='cursor-pointer p-2'>
