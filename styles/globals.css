@@ -82,6 +82,10 @@ body {
   color: #2d2e32;
 }
 
+a {
+  width: fit-content !important;
+}
+
 /* div, span, p {
   color: #ffffff;
 } */

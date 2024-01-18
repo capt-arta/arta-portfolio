@@ -15,17 +15,29 @@ export default function Index() {
 
   const projectsData = [
       {
-          id: 'smart-dash-infra',
-          title: 'Smart Dashboard Infra Telkomsel',
-          subTitle: 'Project Management',
-          img: '/assets/projects/smartdash-infra.png',
-          tech: ['Next JS', 'Laravel', 'MySql Server'],
+          id: 'cpp-komet',
+          title: 'CPP Komet',
+          subTitle: 'Monitoring Project',
+          img: '/assets/projects/cpp-komet.png',
+          tech: ['Next JS', 'Nest JS', 'PostgreSql'],
           desc: '',
           url: {
-            demo : 'https://smartboard-infra.com/',
+            demo : '',
             code: '',
           }
       },
+      {
+        id: 'smart-dash-infra',
+        title: 'Smart Dashboard Infra Telkomsel',
+        subTitle: 'Project Management',
+        img: '/assets/projects/smartdash-infra.png',
+        tech: ['Next JS', 'Laravel', 'MySql Server'],
+        desc: '',
+        url: {
+          demo : '',
+          code: '',
+        }
+    },
       {
           id: 'babek',
           title: 'Babek TNI AD',
