@@ -2,6 +2,11 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import ScrollAnimation from 'react-animate-on-scroll';
+import { FaJava, FaLaravel, FaVuejs } from 'react-icons/fa';
+import { BiLogoPostgresql } from "react-icons/bi";
+import { TbBrandNextjs } from 'react-icons/tb';
+import { SiCodeigniter, SiMicrosoftsqlserver, SiNestjs } from 'react-icons/si';
+import { RiReactjsFill } from "react-icons/ri";
 
 const Projects = () => {
     const ProjectItem = ({title, img, tech, full_tech, desc, slug}) => {
@@ -17,7 +22,7 @@ const Projects = () => {
             //         </Link>
             //     </div>
             // </ScrollAnimation>
-            // <ScrollAnimation animateIn='slideInUp' animateOnce>
+            <ScrollAnimation animateIn='slideInUp' animateOnce>
                 <div className='relative bg-gray-800 flex items-center justify-center overflow-hidden h-full w-full shadow-xl shadow-[#00000060] rounded-xl transition-all group'>
                     <div>
                     {/* <Link href={slug}> */}
@@ -35,14 +40,81 @@ const Projects = () => {
                         </div>
                         <div className='flex gap-2 overflow-auto'>
                             {full_tech?.map((it, idx)=>{
-                                return <div key={idx} className='p-2 py-1 w-fit whitespace-nowrap rounded-md bg-white text-black text-sm font-semibold'>{it}</div>
+                                return <div key={idx} className='p-2 py-3 w-fit whitespace-nowrap rounded-md bg-white flex items-center text-black text-sm font-semibold'>{it}</div>
                             })}
                         </div>
                     </div>  
                 </div>
-            // </ScrollAnimation>
+            </ScrollAnimation>
         )
     };
+
+    const projectsDataWithLogo = [
+        {
+            title: 'Komet',
+            img: '/assets/projects/cpp-komet.png',
+            tech: 'Next JS',
+            full_tech: [<TbBrandNextjs key={1} fontSize={32} />, <SiNestjs key={2} fontSize={32} />, <BiLogoPostgresql key={3} fontSize={32} />],
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet lectus ut tristique ultricies. Duis pulvinar enim id gravida lacinia. Phasellus blandit lacus nunc, sit amet semper lacus viverra ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices. (ini deskripsi)',
+            slug: '/cpp-komet',
+        },
+        {
+            title: 'Smart Dashboard Infra Telkomsel',
+            img: '/assets/projects/smartdash-infra.png',
+            tech: 'Next JS',
+            full_tech: [<TbBrandNextjs key={1} fontSize={32} />, <FaLaravel key={2} fontSize={32} />, <SiMicrosoftsqlserver key={3} fontSize={32} />],
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet lectus ut tristique ultricies. Duis pulvinar enim id gravida lacinia. Phasellus blandit lacus nunc, sit amet semper lacus viverra ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices. (ini deskripsi)',
+            slug: '/smart-dash-infra',
+        },
+        {
+            title: 'Babek TNI AD',
+            img: '/assets/projects/babek.png',
+            tech: 'Laravel (Backend)',
+            full_tech: [<FaLaravel key={1} fontSize={32} />, <FaVuejs key={2} fontSize={32} />, <BiLogoPostgresql key={3} fontSize={32} />],
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet lectus ut tristique ultricies. Duis pulvinar enim id gravida lacinia. Phasellus blandit lacus nunc, sit amet semper lacus viverra ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices. (ini deskripsi)',
+            slug: '/babek',
+        },
+        {
+            title: 'ITSD Telkomsel Dashboard VoC',
+            img: '/assets/projects/itsd.png',
+            tech: 'Laravel',
+            full_tech: [<FaLaravel key={1} fontSize={32} />],
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet lectus ut tristique ultricies. Duis pulvinar enim id gravida lacinia. Phasellus blandit lacus nunc, sit amet semper lacus viverra ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices. (ini deskripsi)',
+            slug: '/itsd-telkomsel-dashboard-voc',
+        },
+        {
+            title: 'BRI WorkBench',
+            img: '/assets/projects/wbench.jpeg',
+            tech: 'CodeIgniter',
+            full_tech: [<SiCodeigniter key={1} fontSize={32 }/>, <SiMicrosoftsqlserver key={2} fontSize={32} />],
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet lectus ut tristique ultricies. Duis pulvinar enim id gravida lacinia. Phasellus blandit lacus nunc, sit amet semper lacus viverra ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices. (ini deskripsi)',
+            slug: '/bri-workbench',
+        },
+        {
+            title: 'CariParkir CMS (Admin and Portal)',
+            img: '/assets/projects/cariparkir.png',
+            tech: 'Vue JS and React JS',
+            full_tech: [<FaVuejs key={1} fontSize={32} />, <RiReactjsFill key={2} fontSize={32} />, <FaJava key={3} fontSize={32} />, <SiNestjs key={4} fontSize={32} />],
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet lectus ut tristique ultricies. Duis pulvinar enim id gravida lacinia. Phasellus blandit lacus nunc, sit amet semper lacus viverra ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices. (ini deskripsi)',
+            slug: '/cariparkir-cms',
+        },
+        {
+            title: 'Ajari Edutech',
+            img: '/assets/projects/ajari.png',
+            tech: 'Next JS',
+            full_tech: [<TbBrandNextjs key={1} fontSize={32} />, <SiNestjs key={2} fontSize={32} />, <BiLogoPostgresql key={3} fontSize={32} />],
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet lectus ut tristique ultricies. Duis pulvinar enim id gravida lacinia. Phasellus blandit lacus nunc, sit amet semper lacus viverra ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices. (ini deskripsi)',
+            slug: '/ajari-edutech',
+        },
+        {
+            title: 'Dashboard SIPD Kemendagri',
+            img: '/assets/projects/sipd.png',
+            tech: 'Next JS',
+            full_tech: [<TbBrandNextjs key={1} fontSize={32} />, <SiNestjs key={2} fontSize={32} />, <BiLogoPostgresql key={3} fontSize={32} />],
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet lectus ut tristique ultricies. Duis pulvinar enim id gravida lacinia. Phasellus blandit lacus nunc, sit amet semper lacus viverra ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices. (ini deskripsi)',
+            slug: '/sipd-dashboard',
+        },
+    ];
 
     const projectsData = [
         {
