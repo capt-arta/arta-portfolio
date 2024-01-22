@@ -126,6 +126,14 @@ const Projects = () => {
             slug: '/cpp-komet',
         },
         {
+            title: 'Bank Papua',
+            img: '/assets/projects/bank-papua.png',
+            tech: 'Next JS',
+            full_tech: ['Next JS', 'Nest JS', 'PostgreSql'],
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet lectus ut tristique ultricies. Duis pulvinar enim id gravida lacinia. Phasellus blandit lacus nunc, sit amet semper lacus viverra ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices. (ini deskripsi)',
+            slug: '/bank-papua',
+        },
+        {
             title: 'Smart Dashboard Infra Telkomsel',
             img: '/assets/projects/smartdash-infra.png',
             tech: 'Next JS',
