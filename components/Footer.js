@@ -45,7 +45,7 @@ const Footer = () => {
         <div id='contact' className='w-full h-full text-center bg-artiysx-black'>
             <div className='p-14 max-w-[1240px] mx-auto px-8 flex flex-col md:flex-row md:justify-between items-center'>
                 <h3 className='flex items-center justify-center text-white'>
-                    Copyright © 2023. All rights are reserved
+                    Copyright © 2024. All rights are reserved
                 </h3>
                 <div className='flex items-center justify-center gap-4 md:gap-7 my-auto pt-4 md:pt-0'>
                     {contactData?.map((it, idx)=>{

@@ -143,7 +143,7 @@ const Navbar = () => {
                             })}
                         </div>
                         <div className='flex items-center justify-center'>
-                            &copy; 2023
+                            &copy; 2024
                         </div>
                     </div>
                 </div>
