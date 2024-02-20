@@ -58,6 +58,25 @@ html {
   }
 }
 
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(10px);
+  }
+  50% {
+    transform: translateX(-10px);
+  }
+  75% {
+    transform: translateX(5px);
+  }
+}
+
+.animate-shake {
+  animation: shake 0.5s ease-in-out infinite;
+}
+
 .animate-morph {
   animation: morph 8s ease-in-out infinite;
 }
@@ -65,7 +84,8 @@ html {
 .hero-image {
   height: 280px;
   width: 280px;
-  background-image: url('/assets/self-img.jpeg');
+  /* background-image: url('/assets/self-img.jpeg'); */
+  background-color: #147efb;
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -114,4 +134,26 @@ a {
 .link-underline:hover {
   background-size: 100% 3px;
   background-position: 0 100%
+}
+
+.spotlight {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background: rgba(8, 49, 90, 1);
+  filter: blur(20px);
+  pointer-events: none;
+}
+
+.break-pointer::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -7px;
+  top: 0;
+  background: #147efb;
+  border: 2px solid #1480fb;
 }

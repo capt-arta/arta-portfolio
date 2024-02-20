@@ -26,7 +26,8 @@ const Skills = () => {
             text: 'ReactJS',
         },
         {
-            image: './assets/skills/next-js.svg',
+            // image: './assets/skills/next-js.svg',
+            image: './assets/skills/nextjs-dark.svg',
             text: 'NextJS',
         },
         {
@@ -63,10 +64,10 @@ const Skills = () => {
     const SkillsCard = ({text, image}) => {
         return (
             <ScrollAnimation animateIn='slideInUp' animateOnce>
-                <div className='p-6 bg-artiysx-gray shadow-artiysx-blu/25 shadow-lg rounded-xl hover:shadow-artiysx-blu/25 hover:shadow-xl hover:scale-105 ease duration-200'>
+                <div className='p-6 bg-artiysx-gray h-full shadow-artiysx-blu/25 group shadow-lg rounded-xl hover:shadow-artiysx-blu/25 hover:shadow-xl hover:-translate-y-3 ease duration-200'>
                     <div className='grid sm:grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <Image src={image} alt='/' className='aspect-square w-[64px] h-[64px] object-contain' width={64} height={64} />
+                        <div className='m-auto group-hover:-rotate-12 group-hover:scale-105 duration-300'>
+                            <Image src={image} color='white' alt='/' className='aspect-square w-[64px] h-[64px] object-contain' width={64} height={64} />
                         </div>
                         <div className='tracking-wide flex flex-col items-center justify-center'>
                             <h3 className='text-center'>{text}</h3>
