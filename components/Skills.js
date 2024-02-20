@@ -64,7 +64,7 @@ const Skills = () => {
     const SkillsCard = ({text, image}) => {
         return (
             <ScrollAnimation animateIn='slideInUp' animateOnce>
-                <div className='p-6 bg-artiysx-gray h-full shadow-artiysx-blu/25 group shadow-lg rounded-xl hover:shadow-artiysx-blu/25 hover:shadow-xl hover:-translate-y-3 ease duration-200'>
+                <div className='p-6 bg-artiysx-gray h-full shadow-artiysx-blu/50 group shadow-lg rounded-xl hover:shadow-artiysx-blu/50 hover:shadow-xl hover:-translate-y-3 ease duration-200'>
                     <div className='grid sm:grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto group-hover:-rotate-12 group-hover:scale-105 duration-300'>
                             <Image src={image} color='white' alt='/' className='aspect-square w-[64px] h-[64px] object-contain' width={64} height={64} />

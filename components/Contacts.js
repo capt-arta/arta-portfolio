@@ -33,8 +33,8 @@ const Contacts = () => {
             <ScrollAnimation animateIn="slideInUp" animateOnce>
                 <Link href={url} legacyBehavior>
                     <a target="_blank" rel="noopener noreferrer" className='group'>
-                        <div className={`flex flex-col md:flex-row bg-artiysx-gray items-center justify-center mx-auto gap-2 md:gap-4 md:justify-normal rounded-2xl shadow-artiysx-blu hover:drop-shadow-2xl hover:-translate-y-2 p-4 w-[300px] transition-all`} style={{boxShadow: '0 0 7px 5px rgb(8, 49, 90)'}}>
-                            <div className='p-2 flex items-center text-4xl bg-artiysx-gray text-artiysx-blu justify-center rounded-full w-16 h-16' style={{boxShadow: '0 0 10px rgba(0,0,0,1)'}}>
+                        <div className={`flex flex-col md:flex-row bg-artiysx-gray items-center justify-center mx-auto gap-2 md:gap-4 md:justify-normal rounded-2xl shadow-artiysx-blu/50 shadow-lg hover:shadow-xl hover:shadow-artiysx-blu/50 hover:-translate-y-2 p-4 w-[300px] transition-all`} >
+                            <div className='p-2 flex items-center text-4xl bg-artiysx-gray text-artiysx-blu justify-center rounded-full w-16 h-16' style={{boxShadow: '0 0 6px 0 #147efb'}}>
                                 {icon}
                             </div>
                             <div className='md:h-[90%] flex flex-col justify-between'>
