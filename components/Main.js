@@ -53,7 +53,7 @@ const Main = () => {
             // </Link>
                 <Link href={url} passHref rel='noopener noreferrer' target='_blank'>
                     <div className='flex flex-col items-center'>
-                        <div className='text-artiysx-black text-4xl cursor-pointer hover:-translate-y-1 hover:text-artiysx-coksu duration-75'>
+                        <div className='text-artiysx-blu/80 text-4xl cursor-pointer hover:-translate-y-1 hover:text-artiysx-blu duration-75'>
                             {icon}
                         </div>
                     </div>
@@ -64,8 +64,8 @@ const Main = () => {
     return (
         <div id='home' className='w-full h-screen text-center'>
             <ParticlesBackground />
-            <div className='max-w-[1240px] w-full h-full mx-auto p-8 flex justify-center items-center bg-white'>
-                {/* <div className='pt-16 border-b-4 border-b-artiysx-coksu/50'> */}
+            <div className='max-w-[1240px] w-full h-full mx-auto p-8 flex justify-center items-center bg-artiysx-bg'>
+                {/* <div className='pt-16 border-b-4 border-b-artiysx-blu/50'> */}
                 <div className='m-auto pt-[68px] z-[999]'>
                     <ScrollAnimation animateIn='fadeIn' animateOnce>
                         <p className='uppercase text-sm tracking-widest text-artiysx-smoke'>
@@ -73,7 +73,7 @@ const Main = () => {
                                 {"let's build something together"}
                             </span>
                         </p>
-                        <h1 className='mt-4 '>{"Hi! I'm "}<span className='px-2 text-artiysx-coksu bg-artiysx-coksu/20'>Arta</span>👋,</h1>
+                        <h1 className='mt-4 '>{"Hi! I'm "}<span className='px-2 text-artiysx-blu bg-artiysx-blu/20'>Arta</span>👋,</h1>
                         <h1 className='mt-2 '>a Front-End Developer.</h1>
                         <p className='mt-4 text-artiysx-smoke max-w-[720px]'>
                             {/* {"let's build something together"} */}
@@ -88,9 +88,9 @@ const Main = () => {
                     </ScrollAnimation>
                 </div>
                 {/* <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center pointer-events-none'>
-                    <div className='absolute animate-morph w-56 h-56 lg:top-48 lg:-left-7 xl:top-50 xl:left-14 bg-artiysx-coksu rounded-full blur-[86px]'></div>
-                    <div className='absolute animate-morph w-32 h-16 bottom-40 right-[32%] lg:right-1/2 xl:bottom-40 xl:right-1/2 bg-artiysx-coksu rounded-full blur-[42px]'></div>
-                    <div className='absolute animate-morph w-36 h-24 xl:top-1/2 xl:right-40 bg-artiysx-coksu rounded-full blur-2xl'></div>
+                    <div className='absolute animate-morph w-56 h-56 lg:top-48 lg:-left-7 xl:top-50 xl:left-14 bg-artiysx-blu rounded-full blur-[86px]'></div>
+                    <div className='absolute animate-morph w-32 h-16 bottom-40 right-[32%] lg:right-1/2 xl:bottom-40 xl:right-1/2 bg-artiysx-blu rounded-full blur-[42px]'></div>
+                    <div className='absolute animate-morph w-36 h-24 xl:top-1/2 xl:right-40 bg-artiysx-blu rounded-full blur-2xl'></div>
                 </div> */}
             </div>
         </div>

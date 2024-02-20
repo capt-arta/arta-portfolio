@@ -33,13 +33,13 @@ const Contacts = () => {
             <ScrollAnimation animateIn="slideInUp" animateOnce>
                 <Link href={url} legacyBehavior>
                     <a target="_blank" rel="noopener noreferrer" className='group'>
-                        <div className='flex flex-col md:flex-row items-center justify-center mx-auto gap-2 md:gap-4 md:justify-normal rounded-2xl hover:drop-shadow-2xl hover:-translate-y-2 p-4 w-[300px] transition-all' style={{boxShadow: '0 0 10px rgba(0,0,0,.1)'}}>
-                            <div className='p-2 flex items-center text-4xl text-artiysx-coksu justify-center rounded-full w-16 h-16' style={{boxShadow: '0 0 10px rgba(0,0,0,.1)'}}>
+                        <div className='flex flex-col md:flex-row items-center justify-center mx-auto gap-2 md:gap-4 md:justify-normal rounded-2xl shadow-artiysx-blu hover:drop-shadow-2xl hover:-translate-y-2 p-4 w-[300px] transition-all' style={{boxShadow: '0 5px 10px rgba(8, 49, 90,1)'}}>
+                            <div className='p-2 flex items-center text-4xl bg-artiysx-gray text-artiysx-blu justify-center rounded-full w-16 h-16' style={{boxShadow: '0 0 10px rgba(0,0,0,.1)'}}>
                                 {icon}
                             </div>
                             <div className='md:h-[90%] flex flex-col justify-between'>
                                 <h3 className='text-center md:text-left'>{title}</h3>
-                                <p className='group-hover:text-artiysx-coksu'>{desc}</p>
+                                <p className='group-hover:text-artiysx-blu'>{desc}</p>
                             </div>
                         </div>
                     </a>
@@ -53,7 +53,7 @@ const Contacts = () => {
                 <div className='max-w-[1240px] mx-auto px-8 py-12 mt-16'>
                     <ScrollAnimation animateIn="fadeIn" animateOnce>
                         <p className='tracking-widest text-xl font-medium '>
-                            <span className='bg-artiysx-coksu/20 text-artiysx-coksu'>
+                            <span className='bg-artiysx-blu/20 text-artiysx-blu'>
                                 CONTACT
                             </span>
                         </p>

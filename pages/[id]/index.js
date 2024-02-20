@@ -132,7 +132,7 @@ export default function Index() {
                   {/* <Skeleton active title/> */}
                 </h3>
                 <div className='h-4 w-56 mt-4 rounded-full cursor-pointer group'>
-                  <Link className='group-hover:text-artiysx-coksu' href={'../#projects'} passHref>
+                  <Link className='group-hover:text-artiysx-blu' href={'../#projects'} passHref>
                     {/* <Skeleton active title/> */}
                   </Link>
                 </div>
@@ -171,7 +171,7 @@ export default function Index() {
                 {/* <Skeleton active title/> */}
               </h3>
               <div className='h-4 w-56 mt-4 rounded-full cursor-pointer group'>
-                <Link className='group-hover:text-artiysx-coksu' href={'../#projects'} passHref>
+                <Link className='group-hover:text-artiysx-blu' href={'../#projects'} passHref>
                   {/* <Skeleton active title/> */}
                 </Link>
               </div>
@@ -197,7 +197,7 @@ export default function Index() {
           <div className='max-w-[1240px] w-full mx-auto grid md:grid-cols-5 gap-8 pt-8 px-6 xl:px-0'>
             <div className='col-span-4'>
               <p className='tracking-widest text-lg font-medium '>
-                <span className='bg-artiysx-coksu/20 text-artiysx-coksu'>
+                <span className='bg-artiysx-blu/20 text-artiysx-blu'>
                   PROJECT
                 </span>
               </p>
@@ -237,7 +237,7 @@ export default function Index() {
           </div>
 
           <div className='max-w-[1240px] w-full mx-auto h-fit mt-4 pb-10 px-6 xl:px-0'>
-            <div className='w-fit rounded-full cursor-pointer hover:text-artiysx-coksu'>
+            <div className='w-fit rounded-full cursor-pointer hover:text-artiysx-blu'>
               <Link className='pr-3' href={'../#projects'} passHref>
                 <span className='font-bold text-lg pr-2'>&#8636;</span> Back
               </Link>

@@ -32,7 +32,7 @@ const Footer = () => {
                 <div className='flex flex-col items-center'>
                     {/* <div className='rounded-full bg-white shadow-lg p-4 cursor-pointer hover:scale-110 ease duration-200'> */}
                         {/* <div className='text-white text-3xl '> */}
-                        <div className='text-white text-2xl cursor-pointer hover:scale-110 hover:text-artiysx-coksu duration-75'>
+                        <div className='text-white text-2xl cursor-pointer hover:scale-110 hover:text-artiysx-blu duration-75'>
                             {icon}
                         </div>
                     {/* </div> */}
@@ -42,7 +42,7 @@ const Footer = () => {
     };
 
     return (
-        <div id='contact' className='w-full h-full text-center bg-artiysx-black'>
+        <div id='contact' className='w-full h-full text-center bg-artiysx-gray'>
             <div className='p-14 max-w-[1240px] mx-auto px-8 flex flex-col md:flex-row md:justify-between items-center'>
                 <h3 className='flex items-center justify-center text-white'>
                     Copyright © 2024. All rights are reserved
