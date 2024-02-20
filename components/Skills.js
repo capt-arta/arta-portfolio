@@ -63,7 +63,7 @@ const Skills = () => {
     const SkillsCard = ({text, image}) => {
         return (
             <ScrollAnimation animateIn='slideInUp' animateOnce>
-                <div className='p-6  shadow-lg rounded-xl hover:shadow-xl hover:scale-105 ease duration-200'>
+                <div className='p-6 bg-artiysx-gray shadow-artiysx-blu/25 shadow-lg rounded-xl hover:shadow-artiysx-blu/25 hover:shadow-xl hover:scale-105 ease duration-200'>
                     <div className='grid sm:grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image src={image} alt='/' className='aspect-square w-[64px] h-[64px] object-contain' width={64} height={64} />
@@ -82,7 +82,7 @@ const Skills = () => {
             <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full' >
                 <ScrollAnimation animateIn='slideInUp' animateOnce>
                     <p className='tracking-widest text-xl font-medium '>
-                        <span className='bg-artiysx-coksu/20 text-artiysx-coksu'>
+                        <span className='bg-artiysx-blu/20 text-artiysx-blu'>
                             SKILLS
                         </span>
                     </p>

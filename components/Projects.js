@@ -192,11 +192,11 @@ const Projects = () => {
     ];
 
     return (
-        <div id='projects' className='w-full bg-[#f9f9f9]'>
+        <div id='projects' className='w-full bg-artiysx-bg'>
             <div className='max-w-[1240px] mx-auto px-8 py-12 mt-16'>
                 <ScrollAnimation animateIn="slideInUp" animateOnce>
                     <p className='tracking-widest text-xl font-medium '>
-                        <span className='bg-artiysx-coksu/20 text-artiysx-coksu'>
+                        <span className='bg-artiysx-blu/20 text-artiysx-blu'>
                             PROJECTS
                         </span>
                     </p>
