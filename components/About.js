@@ -20,12 +20,26 @@ const About = () => {
             <h2 className='py-4'>Who I Am</h2>
           </ScrollAnimation>
           <ScrollAnimation animateIn="slideInUp" animateOnce>
-            <div className='my-4'>
-              <div className='relative'>
+            <div className='mb-4'>
+                <div className='relative'>
+                  <div className='pl-4 break-pointer border-l-artiysx-blu/50 border-l-2'>
+                    <p className='py-2 text-white'>
+                      Hi, {"I'm"} <span className='text-lg font-semibold'>Rizqi Arta Fatullah</span>. A passionate Front-end Developer based in Jakarta, Indonesia📍.<br/>
+                      I am a person who can communicate well, likes to socialize and can work under pressure. I am very interested in continuing to develop my skills and grow professionally. I am confident in my ability to produce something worthwhile.
+                    </p>
+                  </div>
+                </div>
+                <div className='relative'>
                 <div className='pl-4 break-pointer border-l-artiysx-blu/50 border-l-2'>
                   <p className='py-2 text-white'>
-                    Hi, {"I'm"} <span className='text-lg font-semibold'>Rizqi Arta Fatullah</span>. A passionate Front-end Developer based in Jakarta, Indonesia📍.<br/>
-                    I am a person who can communicate well, likes to socialize and can work under pressure. I am very interested in continuing to develop my skills and grow professionally. I am confident in my ability to produce something worthwhile.
+                  {`I specialize in building web responsive front-end UI applications
+                      that connect with API’s and other backend technologies. I’m
+                      passionate about learning new technologies and understand there is
+                      more than one way to accomplish a task. Though I am most proficient
+                      in building front-end applications using HTML, CSS, Javascript, and
+                      React, I am a quick learner and can pick up new tech stacks as
+                      needed. I believe that being a great developer is not using one
+                      specific language, but choosing the best tool for the job.`}
                   </p>
                 </div>
               </div>
