@@ -20,10 +20,16 @@ const About = () => {
             <h2 className='py-4'>Who I Am</h2>
           </ScrollAnimation>
           <ScrollAnimation animateIn="slideInUp" animateOnce>
-            <p className='py-2 text-white'>
-              Hi, {"I'm"} <span className='text-lg font-semibold'>Rizqi Arta Fatullah</span>. A passionate Front-end Developer based in Jakarta, Indonesia📍.<br/>
-              I am a person who can communicate well, likes to socialize and can work under pressure. I am very interested in continuing to develop my skills and grow professionally. I am confident in my ability to produce something worthwhile.
-            </p>
+            <div className='my-4'>
+              <div className='relative'>
+                <div className='pl-4 break-pointer border-l-artiysx-blu/50 border-l-2'>
+                  <p className='py-2 text-white'>
+                    Hi, {"I'm"} <span className='text-lg font-semibold'>Rizqi Arta Fatullah</span>. A passionate Front-end Developer based in Jakarta, Indonesia📍.<br/>
+                    I am a person who can communicate well, likes to socialize and can work under pressure. I am very interested in continuing to develop my skills and grow professionally. I am confident in my ability to produce something worthwhile.
+                  </p>
+                </div>
+              </div>
+            </div>
             <div>
               {/* <div className='my-4'>
                 <h2 className='py-3'>Education</h2>
@@ -42,13 +48,13 @@ const About = () => {
                   </div>
                 </div>
               </div> */}
-              <div className='my-4'>
+              {/* <div className='my-4'>
                 <h2 className='py-3'>Education</h2>
                 <div className='relative'>
                   <div className='pl-4 pb-4 break-pointer border-l-artiysx-blu/50 border-l-2'>
                     <h3>SMKN 1 KOTA BEKASI</h3>
-                    <div className='my-1 p-3 text-sm py-1 bg-artiysx-blu/30 w-fit'>2019-2022</div>
-                    <div className='w-fit italic'>Place</div>
+                    <div className='my-1 p-3 text-sm py-1 bg-artiysx-blu/30 w-fit'>2019 - 2022</div>
+                    <div className='w-fit italic'>Software Engineering</div>
                     <div className='w-fit'>Learning basic programing like HTML, CSS, PHP and later create project with ReactJS</div>
                   </div>
                 </div>
@@ -57,13 +63,21 @@ const About = () => {
                 <h2 className='py-3'>Personal Experience</h2>
                 <div className='relative'>
                   <div className='pl-4 pb-4 break-pointer border-l-artiysx-blu/50 border-l-2'>
-                    <h3>PT Adyatma Cendekia Sinergi Abadi</h3>
-                    <div className='my-1 p-3 text-sm py-1 bg-artiysx-blu/30 w-fit'>2019-2022</div>
-                    <div className='w-fit italic'>Place</div>
+                    <h3>JUNIOR WEB DEVELOPER</h3>
+                    <div className='my-1 p-3 text-sm py-1 bg-artiysx-blu/30 w-fit'>2022 - now</div>
+                    <div className='w-fit italic'>PT. Adyatma Cendikira Sinergi Abadi, Bekasi City</div>
                     <div className='w-fit'>Learning basic programing like HTML, CSS, PHP and later create project with ReactJS</div>
                   </div>
                 </div>
-              </div>
+                <div className='relative'>
+                  <div className='pl-4 pb-4 break-pointer border-l-artiysx-blu/50 border-l-2'>
+                    <h3>INTERNSHIP</h3>
+                    <div className='my-1 p-3 text-sm py-1 bg-artiysx-blu/30 w-fit'>Jun 2021 - Nov 2021</div>
+                    <div className='w-fit italic'>PT. Akebono Brake Astra Indonesia, Jakarta</div>
+                    <div className='w-fit'>Learning basic programing like HTML, CSS, PHP and later create project with ReactJS</div>
+                  </div>
+                </div>
+              </div> */}
             </div>
             <div className='flex items-center flex-wrap'>
               <Link href='https://drive.google.com/file/d/1hpYJLjBm2TT84Q-92DF8pkJO0pPP2TJG/view?usp=sharing' className='w-fit' legacyBehavior >
