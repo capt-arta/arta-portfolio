@@ -84,8 +84,8 @@ html {
 .hero-image {
   height: 280px;
   width: 280px;
-  /* background-image: url('/assets/self-img.jpeg'); */
-  background-color: #147efb;
+  background-image: url('/assets/self-img.jpeg');
+  /* background-color: #147efb; */
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
