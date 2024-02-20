@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { TbMapSearch } from "react-icons/tb";
 import { FaInstagram } from 'react-icons/fa';
 import { MdMailOutline } from "react-icons/md";
@@ -33,8 +33,8 @@ const Contacts = () => {
             <ScrollAnimation animateIn="slideInUp" animateOnce>
                 <Link href={url} legacyBehavior>
                     <a target="_blank" rel="noopener noreferrer" className='group'>
-                        <div className='flex flex-col md:flex-row items-center justify-center mx-auto gap-2 md:gap-4 md:justify-normal rounded-2xl shadow-artiysx-blu hover:drop-shadow-2xl hover:-translate-y-2 p-4 w-[300px] transition-all' style={{boxShadow: '0 5px 10px rgba(8, 49, 90,1)'}}>
-                            <div className='p-2 flex items-center text-4xl bg-artiysx-gray text-artiysx-blu justify-center rounded-full w-16 h-16' style={{boxShadow: '0 0 10px rgba(0,0,0,.1)'}}>
+                        <div className={`flex flex-col md:flex-row bg-artiysx-gray items-center justify-center mx-auto gap-2 md:gap-4 md:justify-normal rounded-2xl shadow-artiysx-blu hover:drop-shadow-2xl hover:-translate-y-2 p-4 w-[300px] transition-all`} style={{boxShadow: '0 0 7px 5px rgb(8, 49, 90)'}}>
+                            <div className='p-2 flex items-center text-4xl bg-artiysx-gray text-artiysx-blu justify-center rounded-full w-16 h-16' style={{boxShadow: '0 0 10px rgba(0,0,0,1)'}}>
                                 {icon}
                             </div>
                             <div className='md:h-[90%] flex flex-col justify-between'>
@@ -61,7 +61,7 @@ const Contacts = () => {
                     <ScrollAnimation animateIn="fadeIn" animateOnce>
                         <h2 className='py-4'>Get in Touch with Me</h2>
                     </ScrollAnimation>
-                    <div className='pt-6 flex flex-col md:flex-row gap-10 justify-center md:justify-normal md:gap-4 flex-wrap'>
+                    <div className='pt-6 flex flex-col md:flex-row gap-12 justify-center md:justify-normal md:gap-4 flex-wrap'>
                         {contactData.map((it, idx) => <ContactList key={idx} title={it.title} desc={it.desc} url={it.url} icon={it.icon} />)}
                     </div>
                 </div>

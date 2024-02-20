@@ -11,17 +11,6 @@ import { RiReactjsFill } from "react-icons/ri";
 const Projects = () => {
     const ProjectItem = ({title, img, tech, full_tech, desc, slug}) => {
         return (
-            // <ScrollAnimation animateIn='slideInUp' animateOnce>
-            //     <div className='relative bg-gray-800 flex items-center justify-center overflow-hidden h-full w-full shadow-xl  shadow-gray-400 hover:scale-105 rounded-xl transition-all group hover:bg-gradient-to-b from-[#147efb25] to-[#147efb] '>
-            //         <Link href={slug}>
-            //             <Image className=' opacity-40 blur-[2px] group-hover:opacity-10 group-hover:blur-sm h-[400px] object-cover' width={700} height={400} objectFit='cover' layout='fixed' src={img} alt={`/${title}`} /> 
-            //             <div className='absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
-            //                 <h3 className='md:text-2xl text-white tracking-wider text-center'>{title}</h3>
-            //                 <p className='pt-2 text-white text-center'>{tech}</p>
-            //             </div>
-            //         </Link>
-            //     </div>
-            // </ScrollAnimation>
             <ScrollAnimation animateIn='slideInUp' animateOnce>
                 <div className='relative bg-gray-800 flex items-center justify-center overflow-hidden h-full w-full shadow-xl shadow-[#00000060] rounded-xl transition-all group'>
                     <div>
