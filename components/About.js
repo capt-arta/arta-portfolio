@@ -19,8 +19,8 @@ const About = () => {
           <ScrollAnimation animateIn="slideInUp" animateOnce>
             <h2 className='py-4'>Who I Am</h2>
           </ScrollAnimation>
-          <ScrollAnimation animateIn="slideInUp" animateOnce>
             <div className='mb-4'>
+              <ScrollAnimation animateIn="slideInUp" animateOnce>
                 <div className='relative'>
                   <div className='pl-4 break-pointer border-l-artiysx-blu/50 border-l-2'>
                     <p className='py-2 text-white'>
@@ -29,6 +29,8 @@ const About = () => {
                     </p>
                   </div>
                 </div>
+              </ScrollAnimation>
+              <ScrollAnimation animateIn="slideInUp" animateOnce>
                 <div className='relative'>
                 <div className='pl-4 break-pointer border-l-artiysx-blu/50 border-l-2'>
                   <p className='py-2 text-white'>
@@ -42,9 +44,9 @@ const About = () => {
                       specific language, but choosing the best tool for the job.`}
                   </p>
                 </div>
-              </div>
+                </div>
+              </ScrollAnimation>
             </div>
-            <div>
               {/* <div className='my-4'>
                 <h2 className='py-3'>Education</h2>
                 <div className='relative'>
@@ -92,21 +94,21 @@ const About = () => {
                   </div>
                 </div>
               </div> */}
-            </div>
-            <div className='flex items-center flex-wrap'>
-              <Link href='https://drive.google.com/file/d/1hpYJLjBm2TT84Q-92DF8pkJO0pPP2TJG/view?usp=sharing' className='w-fit' legacyBehavior >
-                <a target="_blank" rel="noopener noreferrer" className='w-fit text-artiysx-blu hover:text-artiysx-blu/80 underline cursor-pointer'>
-                    Check out of my CV
-                </a>
-              </Link>
-              <span className='mx-1'>or</span>
-              <Link href='/#projects' legacyBehavior>
-                <a className='w-fit text-artiysx-blu hover:text-artiysx-blu/80 underline cursor-pointer whitespace-normal'>
-                    check out some of my latest projects.
-                </a>
-              </Link>
-            </div>
-          </ScrollAnimation>
+            <ScrollAnimation animateIn="slideInUp" animateOnce delay={500}>
+              <div className='flex items-center flex-wrap'>
+                <Link href='https://drive.google.com/file/d/1hpYJLjBm2TT84Q-92DF8pkJO0pPP2TJG/view?usp=sharing' className='w-fit' legacyBehavior >
+                  <a target="_blank" rel="noopener noreferrer" className='w-fit text-artiysx-blu hover:text-artiysx-blu/80 underline cursor-pointer'>
+                      Check out of my CV
+                  </a>
+                </Link>
+                <span className='mx-1'>or</span>
+                <Link href='/#projects' legacyBehavior>
+                  <a className='w-fit text-artiysx-blu hover:text-artiysx-blu/80 underline cursor-pointer whitespace-normal'>
+                      check out some of my latest projects.
+                  </a>
+                </Link>
+              </div>
+            </ScrollAnimation>
         </div>
         {/* <div className='w-full h-auto m-auto rounded-xl flex items-center justify-center p-4 bg-artiysx-blu/90'> */}
         {/* <div className='w-full h-auto m-auto rounded-xl flex items-center justify-center p-4 inset-0 bg-grid-slate-900/[0.04] bg-[bottom_1px_center] dark:bg-grid-slate-400/[0.05] dark:bg-bottom dark:border-b dark:border-slate-100/5'>
