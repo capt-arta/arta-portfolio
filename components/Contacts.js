@@ -30,7 +30,7 @@ const Contacts = () => {
 
     const ContactList = ({title, desc, url, icon}) => {
         return (<>
-            <ScrollAnimation animateIn="slideInUp" animateOnce>
+            <ScrollAnimation animateIn="fadeIn" animateOnce>
                 <Link href={url} legacyBehavior>
                     <a target="_blank" rel="noopener noreferrer" className='group'>
                         <div className={`flex flex-col md:flex-row bg-artiysx-gray items-center justify-center mx-auto gap-2 md:gap-4 md:justify-normal rounded-2xl shadow-artiysx-blu/50 shadow-lg hover:shadow-xl hover:shadow-artiysx-blu/50 hover:-translate-y-2 p-4 w-[300px] transition-all`} >

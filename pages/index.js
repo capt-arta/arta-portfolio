@@ -21,7 +21,7 @@ export default function Home() {
 
   return (
     <div
-      className={`flex min-h-screen flex-col scroll-smooth ${inter.className}`}
+      className={`flex relative min-h-screen flex-col scroll-smooth ${inter.className}`}
       // onMouseMove={handleMouseMove}
     >
       <Navbar />

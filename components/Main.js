@@ -62,7 +62,7 @@ const Main = () => {
     };
 
     return (
-        <div id='home' className='w-full h-screen text-center'>
+        <div id='home' className='w-full h-screen text-center relative'>
             <ParticlesBackground />
             <div className='max-w-[1240px] w-full h-full mx-auto p-8 flex justify-center items-center bg-artiysx-bg'>
                 {/* <div className='pt-16 border-b-4 border-b-artiysx-blu/50'> */}

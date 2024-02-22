@@ -22,6 +22,16 @@ module.exports = {
         'artiysx-gray': '#131e2f',
         'navbg': '#272829',
       },
+      keyframes: {
+        scale: {
+          '0%' : { transform: 'scale(1)' },
+          '90%': { transform: 'scale(1.3)' },
+          '100%': { transform: 'scale(1.25)' },
+        }
+      },
+      animation: {
+        scale: 'scale .5s ease-in-out',
+      }
       // screens: {
       //   'mobile': '380px',
       // },

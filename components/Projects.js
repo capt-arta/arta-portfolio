@@ -11,7 +11,7 @@ import { RiReactjsFill } from "react-icons/ri";
 const Projects = () => {
     const ProjectItem = ({title, img, tech, full_tech, desc, slug}) => {
         return (
-            <ScrollAnimation animateIn='slideInUp' animateOnce>
+            <ScrollAnimation animateIn='fadeIn' animateOnce>
                 <div className='relative bg-gray-800 flex items-center justify-center overflow-hidden h-full w-full shadow-xl shadow-[#00000060] rounded-xl transition-all group'>
                     <div>
                     {/* <Link href={slug}> */}
@@ -183,14 +183,14 @@ const Projects = () => {
     return (
         <div id='projects' className='w-full bg-artiysx-bg'>
             <div className='max-w-[1240px] mx-auto px-8 py-12 mt-16'>
-                <ScrollAnimation animateIn="slideInUp" animateOnce>
+                <ScrollAnimation animateIn="fadeIn" animateOnce>
                     <p className='tracking-widest text-xl font-medium '>
                         <span className='bg-artiysx-blu/20 text-artiysx-blu'>
                             PROJECTS
                         </span>
                     </p>
                 </ScrollAnimation>
-                <ScrollAnimation animateIn="slideInUp" animateOnce>
+                <ScrollAnimation animateIn="fadeIn" animateOnce>
                     <h2 className='py-4'>What I&apos;ve Built</h2>
                 </ScrollAnimation>
                 <div className='grid md:grid-cols-2 gap-8'>

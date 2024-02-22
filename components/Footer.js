@@ -42,7 +42,7 @@ const Footer = () => {
     };
 
     return (
-        <div id='contact' className='w-full h-full text-center bg-artiysx-gray'>
+        <div id='contact' className='w-full h-full text-center bg-artiysx-gray z-50'>
             <div className='p-14 max-w-[1240px] mx-auto px-8 flex flex-col md:flex-row md:justify-between items-center'>
                 <h3 className='flex items-center justify-center text-white'>
                     Copyright © 2024. All rights are reserved
