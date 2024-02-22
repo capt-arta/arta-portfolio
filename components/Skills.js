@@ -63,10 +63,10 @@ const Skills = () => {
 
     const SkillsCard = ({text, image}) => {
         return (
-            <ScrollAnimation animateIn='slideInUp' animateOnce>
+            <ScrollAnimation animateIn='fadeIn' animateOnce>
                 <div className='p-6 bg-artiysx-gray h-full shadow-artiysx-blu/50 group shadow-lg rounded-xl hover:shadow-artiysx-blu/50 hover:shadow-xl hover:-translate-y-3 ease duration-200'>
                     <div className='grid sm:grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto group-hover:-rotate-12 group-hover:scale-105 duration-300'>
+                        <div className='m-auto group-hover:-rotate-12 group-hover:scale-125 duration-500'>
                             <Image src={image} color='white' alt='/' className='aspect-square w-[64px] h-[64px] object-contain' width={64} height={64} />
                         </div>
                         <div className='tracking-wide flex flex-col items-center justify-center'>
@@ -81,14 +81,14 @@ const Skills = () => {
     return (
         <div id='skills' className='w-full lg:h-screen p-8 py-24'>
             <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full' >
-                <ScrollAnimation animateIn='slideInUp' animateOnce>
+                <ScrollAnimation animateIn='fadeIn' animateOnce>
                     <p className='tracking-widest text-xl font-medium '>
                         <span className='bg-artiysx-blu/20 text-artiysx-blu'>
                             SKILLS
                         </span>
                     </p>
                 </ScrollAnimation>
-                <ScrollAnimation animateIn="slideInUp" animateOnce>
+                <ScrollAnimation animateIn="fadeIn" animateOnce>
                     <h2 className='py-3'>
                         What I Can Do
                     </h2>

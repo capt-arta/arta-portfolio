@@ -8,19 +8,19 @@ const About = () => {
   return (
     <div id='about' className='w-full md:min-h-screen p-8 flex items-center py-24 bg-artiysx-bg'>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 flex flex-col-reverse gap-8'>
-        <div className='col-span-2'>
-          <ScrollAnimation animateIn="slideInUp" animateOnce>
+        <div className='col-span-2 '>
+          <ScrollAnimation animateIn="fadeIn" animateOnce>
             <p className='tracking-widest text-xl font-medium '>
                   <span className='bg-artiysx-blu/20 text-artiysx-blu'>
                       ABOUT
                   </span>
             </p>
           </ScrollAnimation>
-          <ScrollAnimation animateIn="slideInUp" animateOnce>
+          <ScrollAnimation animateIn="fadeIn" animateOnce>
             <h2 className='py-4'>Who I Am</h2>
           </ScrollAnimation>
             <div className='mb-4'>
-              <ScrollAnimation animateIn="slideInUp" animateOnce>
+              <ScrollAnimation animateIn="fadeIn" animateOnce>
                 <div className='relative'>
                   <div className='pl-4 break-pointer border-l-artiysx-blu/50 border-l-2'>
                     <p className='py-2 text-white'>
@@ -30,7 +30,7 @@ const About = () => {
                   </div>
                 </div>
               </ScrollAnimation>
-              <ScrollAnimation animateIn="slideInUp" animateOnce>
+              <ScrollAnimation animateIn="fadeIn" animateOnce>
                 <div className='relative'>
                 <div className='pl-4 break-pointer border-l-artiysx-blu/50 border-l-2'>
                   <p className='py-2 text-white'>
@@ -94,7 +94,7 @@ const About = () => {
                   </div>
                 </div>
               </div> */}
-            <ScrollAnimation animateIn="slideInUp" animateOnce delay={500}>
+            <ScrollAnimation animateIn="fadeIn" animateOnce delay={500}>
               <div className='flex items-center flex-wrap'>
                 <Link href='https://drive.google.com/file/d/1hpYJLjBm2TT84Q-92DF8pkJO0pPP2TJG/view?usp=sharing' className='w-fit' legacyBehavior >
                   <a target="_blank" rel="noopener noreferrer" className='w-fit text-artiysx-blu hover:text-artiysx-blu/80 underline cursor-pointer'>
