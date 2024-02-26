@@ -94,7 +94,7 @@ const About = () => {
                   </div>
                 </div>
               </div> */}
-            <ScrollAnimation animateIn="fadeIn" animateOnce delay={500}>
+            <ScrollAnimation animateIn="fadeIn" animateOnce >
               <div className='flex items-center flex-wrap'>
                 <Link href='https://drive.google.com/file/d/1hpYJLjBm2TT84Q-92DF8pkJO0pPP2TJG/view?usp=sharing' className='w-fit' legacyBehavior >
                   <a target="_blank" rel="noopener noreferrer" className='w-fit text-artiysx-blu hover:text-artiysx-blu/80 underline cursor-pointer'>
