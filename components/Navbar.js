@@ -22,7 +22,7 @@ const Navbar = () => {
 
     const dataMenu = [
         {
-            id: "/#home",
+            id: "/",
             text: "Home",
         },
         {

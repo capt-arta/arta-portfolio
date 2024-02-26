@@ -21,17 +21,21 @@ export default function Home() {
 
   return (
     <div
-      className={`flex relative min-h-screen flex-col scroll-smooth ${inter.className}`}
+      className={`flex relative min-h-screen flex-col scroll-smooth overflow-hidden ${inter.className}`}
       // onMouseMove={handleMouseMove}
     >
       <Navbar />
       {/* <Spotlight x={mousePosition.x} y={mousePosition.y} /> */}
-      <Main />
-      <About />
-      <Skills />
-      <Projects />
-      <Contacts />
-      <Footer  />
+      <div className='fixed w-full h-full'>
+        <Main />
+      </div>
+      <div className='bg-artiysx-bg z-30 relative mt-[100vh] outline outline-artiysx-blu' >
+        <About />
+        <Skills />
+        <Projects />
+        <Contacts />
+        <Footer  />
+      </div>
     </div>
   )
 }
