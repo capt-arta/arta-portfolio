@@ -181,7 +181,7 @@ const Projects = () => {
     ];
 
     return (
-        <div id='projects' className='w-full bg-artiysx-bg'>
+        <div id='projects' className='w-full'>
             <div className='max-w-[1240px] mx-auto px-8 py-12 mt-16'>
                 <ScrollAnimation animateIn="fadeIn" animateOnce>
                     <p className='tracking-widest text-xl font-medium '>

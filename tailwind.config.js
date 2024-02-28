@@ -19,6 +19,7 @@ module.exports = {
         // 'artiysx-blu': '#d9b29e',
         'artiysx-black': '#2d2e32',
         'artiysx-bg': '#050c15',
+        'artiysx-bg-light': '#031124',
         'artiysx-gray': '#131e2f',
         'navbg': '#272829',
       },

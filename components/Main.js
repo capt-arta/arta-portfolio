@@ -62,9 +62,9 @@ const Main = () => {
     };
 
     return (
-        <div id='home' className='w-full h-screen text-center relative'>
+        <div id='home' className='w-full h-screen text-center relative bg-artiysx-bg'>
             <ParticlesBackground />
-            <div className='max-w-[1240px] w-full h-full mx-auto p-8 flex justify-center items-center bg-artiysx-bg'>
+            <div className='max-w-[1240px] w-full h-full mx-auto p-8 flex justify-center items-center'>
                 {/* <div className='pt-16 border-b-4 border-b-artiysx-blu/50'> */}
                 <div className='m-auto pt-[68px] z-[999]'>
                     <ScrollAnimation animateIn='fadeIn' animateOnce>

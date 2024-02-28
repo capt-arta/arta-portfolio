@@ -95,7 +95,8 @@ const Navbar = () => {
     };
     
   return (
-    <div className={`${shadow ? 'bg-artiysx-bg' : ''}  duration-200 fixed top-0 z-[9999] w-full flex items-center justify-center px-8 py-4 md:py-5 lg:px-24`} style={shadow ? {boxShadow: '5px 5px 10px rgba(8, 49, 90,1)'} : {}}>
+    <div className={`${shadow ? 'bg-artiysx-bg/80 backdrop-blur-md' : ''}  duration-200 fixed top-0 z-[9999] w-full flex items-center justify-center px-8 py-4 md:py-5 lg:px-24`} >
+    {/* <div className={`${shadow ? 'bg-artiysx-bg/50 backdrop-blur-md' : ''}  duration-200 fixed top-0 z-[9999] w-full flex items-center justify-center px-8 py-4 md:py-5 lg:px-24`} style={shadow ? {boxShadow: '5px 5px 10px rgba(8, 49, 90,1)'} : {}}> */}
         {/* <div className="h-full flex items-center">
             <span className='text-2xl font-extrabold h-full text-artiysx-blu bg-artiysx-blu/20 items-end'>{"Arta"}</span>
         </div> */}
