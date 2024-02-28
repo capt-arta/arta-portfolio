@@ -29,7 +29,7 @@ export default function Home() {
       <div className='fixed w-full h-full'>
         <Main />
       </div>
-      <div className='bg-artiysx-bg z-30 relative mt-[100vh] outline outline-artiysx-blu' >
+      <div className='bg-artiysx-bg-light z-30 relative mt-[100vh] outline outline-artiysx-blu' >
         <About />
         <Skills />
         <Projects />

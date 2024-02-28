@@ -5,18 +5,18 @@ import { loadFull } from 'tsparticles';
 
 const ParticlesBackground = () => {
     const particlesInit = async (main) => {
-        console.log({main});
+        // console.log({main});
         await loadFull(main);
     };
-    const particlesLoaded = (container) => {
-        console.log({container});
-    };
+    // const particlesLoaded = (container) => {
+    //     console.log({container});
+    // };
     return (
         <Particles
             options={particlesConfig}
             style={{ position: 'absolute', width: '100%', height: '100%' }}
             init={particlesInit}
-			loaded={particlesLoaded}
+			// loaded={particlesLoaded}
         />
     );
 };

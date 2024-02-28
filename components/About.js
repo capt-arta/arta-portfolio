@@ -6,7 +6,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 const About = () => {
   return (
-    <div id='about' className='w-full md:min-h-screen p-8 flex items-center py-24 bg-artiysx-bg'>
+    <div id='about' className='w-full md:min-h-screen p-8 flex items-center py-24'>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 flex flex-col-reverse gap-8'>
         <div className='col-span-2 '>
           <ScrollAnimation animateIn="fadeIn" animateOnce>
@@ -41,7 +41,19 @@ const About = () => {
                       in building front-end applications using HTML, CSS, Javascript, and
                       React, I am a quick learner and can pick up new tech stacks as
                       needed. I believe that being a great developer is not using one
-                      specific language, but choosing the best tool for the job.`}
+                      specific language, but choosing the best tool for the job. `}
+                      <Link href='https://drive.google.com/file/d/1hpYJLjBm2TT84Q-92DF8pkJO0pPP2TJG/view?usp=sharing' className='w-fit' legacyBehavior >
+                      <a target="_blank" rel="noopener noreferrer" className='w-fit text-artiysx-blu hover:text-artiysx-blu/80 underline cursor-pointer'>
+                          Check out of my CV
+                      </a>
+                      </Link>
+                      <span className='mx-1'>or</span>
+                      <Link href='/#projects' legacyBehavior>
+                        <a className='w-fit text-artiysx-blu hover:text-artiysx-blu/80 underline cursor-pointer whitespace-normal'>
+                            check out some of my latest projects
+                        </a>
+                      </Link>
+                      .
                   </p>
                 </div>
                 </div>
@@ -94,7 +106,7 @@ const About = () => {
                   </div>
                 </div>
               </div> */}
-            <ScrollAnimation animateIn="fadeIn" animateOnce >
+            {/* <ScrollAnimation animateIn="fadeIn" animateOnce >
               <div className='flex items-center flex-wrap'>
                 <Link href='https://drive.google.com/file/d/1hpYJLjBm2TT84Q-92DF8pkJO0pPP2TJG/view?usp=sharing' className='w-fit' legacyBehavior >
                   <a target="_blank" rel="noopener noreferrer" className='w-fit text-artiysx-blu hover:text-artiysx-blu/80 underline cursor-pointer'>
@@ -108,7 +120,7 @@ const About = () => {
                   </a>
                 </Link>
               </div>
-            </ScrollAnimation>
+            </ScrollAnimation> */}
         </div>
         {/* <div className='w-full h-auto m-auto rounded-xl flex items-center justify-center p-4 bg-artiysx-blu/90'> */}
         {/* <div className='w-full h-auto m-auto rounded-xl flex items-center justify-center p-4 inset-0 bg-grid-slate-900/[0.04] bg-[bottom_1px_center] dark:bg-grid-slate-400/[0.05] dark:bg-bottom dark:border-b dark:border-slate-100/5'>
