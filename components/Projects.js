@@ -44,7 +44,7 @@ const Projects = () => {
             img: '/assets/projects/cpp-komet.png',
             tech: 'Next JS',
             full_tech: [<TbBrandNextjs key={1} fontSize={32} />, <SiNestjs key={2} fontSize={32} />, <BiLogoPostgresql key={3} fontSize={32} />],
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet lectus ut tristique ultricies. Duis pulvinar enim id gravida lacinia. Phasellus blandit lacus nunc, sit amet semper lacus viverra ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices. (ini deskripsi)',
+            desc: 'No description yet.',
             slug: '/cpp-komet',
         },
         {
@@ -52,7 +52,7 @@ const Projects = () => {
             img: '/assets/projects/smartdash-infra.png',
             tech: 'Next JS',
             full_tech: [<TbBrandNextjs key={1} fontSize={32} />, <FaLaravel key={2} fontSize={32} />, <SiMicrosoftsqlserver key={3} fontSize={32} />],
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet lectus ut tristique ultricies. Duis pulvinar enim id gravida lacinia. Phasellus blandit lacus nunc, sit amet semper lacus viverra ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices. (ini deskripsi)',
+            desc: 'No description yet.',
             slug: '/smart-dash-infra',
         },
         {
@@ -60,7 +60,7 @@ const Projects = () => {
             img: '/assets/projects/babek.png',
             tech: 'Laravel (Backend)',
             full_tech: [<FaLaravel key={1} fontSize={32} />, <FaVuejs key={2} fontSize={32} />, <BiLogoPostgresql key={3} fontSize={32} />],
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet lectus ut tristique ultricies. Duis pulvinar enim id gravida lacinia. Phasellus blandit lacus nunc, sit amet semper lacus viverra ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices. (ini deskripsi)',
+            desc: 'No description yet.',
             slug: '/babek',
         },
         {
@@ -68,7 +68,7 @@ const Projects = () => {
             img: '/assets/projects/itsd.png',
             tech: 'Laravel',
             full_tech: [<FaLaravel key={1} fontSize={32} />],
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet lectus ut tristique ultricies. Duis pulvinar enim id gravida lacinia. Phasellus blandit lacus nunc, sit amet semper lacus viverra ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices. (ini deskripsi)',
+            desc: 'No description yet.',
             slug: '/itsd-telkomsel-dashboard-voc',
         },
         {
@@ -76,7 +76,7 @@ const Projects = () => {
             img: '/assets/projects/wbench.jpeg',
             tech: 'CodeIgniter',
             full_tech: [<SiCodeigniter key={1} fontSize={32 }/>, <SiMicrosoftsqlserver key={2} fontSize={32} />],
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet lectus ut tristique ultricies. Duis pulvinar enim id gravida lacinia. Phasellus blandit lacus nunc, sit amet semper lacus viverra ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices. (ini deskripsi)',
+            desc: 'No description yet.',
             slug: '/bri-workbench',
         },
         {
@@ -84,7 +84,7 @@ const Projects = () => {
             img: '/assets/projects/cariparkir.png',
             tech: 'Vue JS and React JS',
             full_tech: [<FaVuejs key={1} fontSize={32} />, <RiReactjsFill key={2} fontSize={32} />, <FaJava key={3} fontSize={32} />, <SiNestjs key={4} fontSize={32} />],
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet lectus ut tristique ultricies. Duis pulvinar enim id gravida lacinia. Phasellus blandit lacus nunc, sit amet semper lacus viverra ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices. (ini deskripsi)',
+            desc: 'No description yet.',
             slug: '/cariparkir-cms',
         },
         {
@@ -92,7 +92,7 @@ const Projects = () => {
             img: '/assets/projects/ajari.png',
             tech: 'Next JS',
             full_tech: [<TbBrandNextjs key={1} fontSize={32} />, <SiNestjs key={2} fontSize={32} />, <BiLogoPostgresql key={3} fontSize={32} />],
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet lectus ut tristique ultricies. Duis pulvinar enim id gravida lacinia. Phasellus blandit lacus nunc, sit amet semper lacus viverra ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices. (ini deskripsi)',
+            desc: 'No description yet.',
             slug: '/ajari-edutech',
         },
         {
@@ -100,7 +100,7 @@ const Projects = () => {
             img: '/assets/projects/sipd.png',
             tech: 'Next JS',
             full_tech: [<TbBrandNextjs key={1} fontSize={32} />, <SiNestjs key={2} fontSize={32} />, <BiLogoPostgresql key={3} fontSize={32} />],
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet lectus ut tristique ultricies. Duis pulvinar enim id gravida lacinia. Phasellus blandit lacus nunc, sit amet semper lacus viverra ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices. (ini deskripsi)',
+            desc: 'No description yet.',
             slug: '/sipd-dashboard',
         },
     ];
@@ -111,7 +111,7 @@ const Projects = () => {
             img: '/assets/projects/cpp-komet.png',
             tech: 'Next JS',
             full_tech: ['Next JS', 'Nest JS', 'PostgreSql'],
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet lectus ut tristique ultricies. Duis pulvinar enim id gravida lacinia. Phasellus blandit lacus nunc, sit amet semper lacus viverra ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices. (ini deskripsi)',
+            desc: 'No description yet.',
             slug: '/cpp-komet',
         },
         {
@@ -119,7 +119,7 @@ const Projects = () => {
             img: '/assets/projects/bank-papua.png',
             tech: 'Next JS',
             full_tech: ['Next JS', 'Nest JS', 'PostgreSql'],
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet lectus ut tristique ultricies. Duis pulvinar enim id gravida lacinia. Phasellus blandit lacus nunc, sit amet semper lacus viverra ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices. (ini deskripsi)',
+            desc: 'No description yet.',
             slug: '/bank-papua',
         },
         {
@@ -127,7 +127,7 @@ const Projects = () => {
             img: '/assets/projects/smartdash-infra.png',
             tech: 'Next JS',
             full_tech: ['Next JS', 'Laravel', 'MySql Server'],
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet lectus ut tristique ultricies. Duis pulvinar enim id gravida lacinia. Phasellus blandit lacus nunc, sit amet semper lacus viverra ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices. (ini deskripsi)',
+            desc: 'No description yet.',
             slug: '/smart-dash-infra',
         },
         {
@@ -135,7 +135,7 @@ const Projects = () => {
             img: '/assets/projects/babek.png',
             tech: 'Laravel (Backend)',
             full_tech: ['Laravel (Backend)', 'Vue JS', 'PostgreSql'],
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet lectus ut tristique ultricies. Duis pulvinar enim id gravida lacinia. Phasellus blandit lacus nunc, sit amet semper lacus viverra ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices. (ini deskripsi)',
+            desc: 'No description yet.',
             slug: '/babek',
         },
         {
@@ -143,7 +143,7 @@ const Projects = () => {
             img: '/assets/projects/itsd.png',
             tech: 'Laravel',
             full_tech: ['Laravel'],
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet lectus ut tristique ultricies. Duis pulvinar enim id gravida lacinia. Phasellus blandit lacus nunc, sit amet semper lacus viverra ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices. (ini deskripsi)',
+            desc: 'No description yet.',
             slug: '/itsd-telkomsel-dashboard-voc',
         },
         {
@@ -151,7 +151,7 @@ const Projects = () => {
             img: '/assets/projects/wbench.jpeg',
             tech: 'CodeIgniter',
             full_tech: ['CodeIgniter', 'SQL Server'],
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet lectus ut tristique ultricies. Duis pulvinar enim id gravida lacinia. Phasellus blandit lacus nunc, sit amet semper lacus viverra ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices. (ini deskripsi)',
+            desc: 'No description yet.',
             slug: '/bri-workbench',
         },
         {
@@ -159,7 +159,7 @@ const Projects = () => {
             img: '/assets/projects/cariparkir.png',
             tech: 'Vue JS and React JS',
             full_tech: ['Vue JS', 'React JS', 'Java', 'Nest JS'],
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet lectus ut tristique ultricies. Duis pulvinar enim id gravida lacinia. Phasellus blandit lacus nunc, sit amet semper lacus viverra ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices. (ini deskripsi)',
+            desc: 'No description yet.',
             slug: '/cariparkir-cms',
         },
         {
@@ -167,7 +167,7 @@ const Projects = () => {
             img: '/assets/projects/ajari.png',
             tech: 'Next JS',
             full_tech: ['Next JS', 'Nest JS', 'PostgreSql'],
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet lectus ut tristique ultricies. Duis pulvinar enim id gravida lacinia. Phasellus blandit lacus nunc, sit amet semper lacus viverra ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices. (ini deskripsi)',
+            desc: 'No description yet.',
             slug: '/ajari-edutech',
         },
         {
@@ -175,7 +175,7 @@ const Projects = () => {
             img: '/assets/projects/sipd.png',
             tech: 'Next JS',
             full_tech: ['Next JS', 'Nest JS', 'PostgreSql'],
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet lectus ut tristique ultricies. Duis pulvinar enim id gravida lacinia. Phasellus blandit lacus nunc, sit amet semper lacus viverra ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices. (ini deskripsi)',
+            desc: 'The SIPD Dashboard is a website that is used to carry out analysis and also find out data for the APBD, where we can directly monitor how the APBD data has been fixed so that further analysis can be carried out. The general process on the SIPD Dashboard is to describe all APBD data both this year and the previous year.',
             slug: '/sipd-dashboard',
         },
     ];
