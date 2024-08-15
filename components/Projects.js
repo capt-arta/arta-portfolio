@@ -107,6 +107,14 @@ const Projects = () => {
 
     const projectsData = [
         {
+            title: 'Customer Portal - PT Sucofindo',
+            img: '/assets/projects/customer-portal-sucofindo.jpg',
+            tech: 'Laravel (fullstack)',
+            full_tech: ['Laravel (fullstack)', 'MySql'],
+            desc: 'No description yet.',
+            slug: '/sucofindo-customer-portal',
+        },
+        {
             title: 'Komet',
             img: '/assets/projects/cpp-komet.png',
             tech: 'Next JS',
@@ -127,7 +135,7 @@ const Projects = () => {
             img: '/assets/projects/smartdash-infra.png',
             tech: 'Next JS',
             full_tech: ['Next JS', 'Laravel', 'MySql Server'],
-            desc: 'No description yet.',
+            desc: 'The Smart Dashboard is a webb-app that can track progress of projects in Telkomsel Infra. it has file archive as tracking project needs. this app has many multiform that corelated with tracking projects. also this app has kanban feature that the user or PM can see how much the progress of the project with file attachment as proof that the task is alreay done. Im working as fronted dev with 1 more partner as backend.',
             slug: '/smart-dash-infra',
         },
         {
