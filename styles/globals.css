@@ -99,7 +99,7 @@ html {
 .hero-image {
   height: 280px;
   width: 280px;
-  background-image: url('/assets/self-img.jpeg');
+  background-image: url('/assets/self1.png');
   /* background-color: #147efb; */
   background-position: 50%;
   background-repeat: no-repeat;
@@ -171,4 +171,23 @@ a {
   top: 0;
   background: #147efb;
   border: 2px solid #1480fb;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1480fb;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(8, 49, 90, 1);
 }
