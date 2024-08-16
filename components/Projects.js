@@ -143,7 +143,7 @@ const Projects = () => {
             img: '/assets/projects/babek.png',
             tech: 'Laravel (Backend)',
             full_tech: ['Laravel (Backend)', 'Vue JS', 'PostgreSql'],
-            desc: 'No description yet.',
+            desc: 'This is a system for inventory or storage of goods in the Indonesian Army. The items data here include vehicles, weapons, rations and all necessities for the Indonesian Army. With this, it is hoped that data collection from BABEK TNI AD will become easier, simpler and faster. I work as a backend dev with 1 of my partners as a front-end dev. Unfortunately Im only here for 2 weeks because I was assigned to a new project.',
             slug: '/babek',
         },
         {
