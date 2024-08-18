@@ -36,7 +36,7 @@ const About = () => {
                 <div className='pl-4 break-pointer border-l-artiysx-blu/50 border-l-2'>
                   <p className='py-2 text-white'>
                   {`I specialize in building web responsive front-end UI applications
-                      that connect with API’s and other backend technologies. I’m
+                      that connect with API’s and other backend technologies (sometimes as fullstack dev). I’m
                       passionate about learning new technologies and understand there is
                       more than one way to accomplish a task. Though I am most proficient
                       in building front-end applications using HTML, CSS, Javascript, and
