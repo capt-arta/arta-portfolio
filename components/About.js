@@ -43,7 +43,7 @@ const About = () => {
                       React, I am a quick learner and can pick up new tech stacks as
                       needed. I believe that being a great developer is not using one
                       specific language, but choosing the best tool for the job. `}
-                      <Link href='https://drive.google.com/file/d/1hpYJLjBm2TT84Q-92DF8pkJO0pPP2TJG/view?usp=sharing' className='w-fit' legacyBehavior >
+                      <Link href='https://drive.google.com/file/d/1MKUeWPmZGTYZm4YSZRpH8Iud5Mv4gH-X/view?usp=drive_link' className='w-fit' legacyBehavior >
                       <a target="_blank" rel="noopener noreferrer" className='w-fit text-artiysx-blu hover:text-artiysx-blu/80 underline cursor-pointer'>
                           Check out of my CV
                       </a>
