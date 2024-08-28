@@ -36,14 +36,14 @@ const About = () => {
                 <div className='pl-4 break-pointer border-l-artiysx-blu/50 border-l-2'>
                   <p className='py-2 text-white'>
                   {`I specialize in building web responsive front-end UI applications
-                      that connect with API’s and other backend technologies. I’m
+                      that connect with API’s and other backend technologies (sometimes as fullstack dev). I’m
                       passionate about learning new technologies and understand there is
                       more than one way to accomplish a task. Though I am most proficient
                       in building front-end applications using HTML, CSS, Javascript, and
                       React, I am a quick learner and can pick up new tech stacks as
                       needed. I believe that being a great developer is not using one
                       specific language, but choosing the best tool for the job. `}
-                      <Link href='https://drive.google.com/file/d/1hpYJLjBm2TT84Q-92DF8pkJO0pPP2TJG/view?usp=sharing' className='w-fit' legacyBehavior >
+                      <Link href='https://drive.google.com/file/d/1MKUeWPmZGTYZm4YSZRpH8Iud5Mv4gH-X/view?usp=drive_link' className='w-fit' legacyBehavior >
                       <a target="_blank" rel="noopener noreferrer" className='w-fit text-artiysx-blu hover:text-artiysx-blu/80 underline cursor-pointer'>
                           Check out of my CV
                       </a>

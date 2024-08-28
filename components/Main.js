@@ -89,11 +89,6 @@ const Main = () => {
                         </div>
                     </ScrollAnimation>
                 </div>
-                {/* <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center pointer-events-none'>
-                    <div className='absolute animate-morph w-56 h-56 lg:top-48 lg:-left-7 xl:top-50 xl:left-14 bg-artiysx-blu rounded-full blur-[86px]'></div>
-                    <div className='absolute animate-morph w-32 h-16 bottom-40 right-[32%] lg:right-1/2 xl:bottom-40 xl:right-1/2 bg-artiysx-blu rounded-full blur-[42px]'></div>
-                    <div className='absolute animate-morph w-36 h-24 xl:top-1/2 xl:right-40 bg-artiysx-blu rounded-full blur-2xl'></div>
-                </div> */}
             </div>
         </div>
     )
