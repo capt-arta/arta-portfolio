@@ -127,7 +127,7 @@ const Projects = () => {
             img: '/assets/projects/customer-portal-sucofindo.jpg',
             tech: 'Laravel (fullstack)',
             full_tech: ['Laravel (fullstack)', 'MySql'],
-            desc: 'No description yet.',
+            desc: 'Im still working on it.',
             slug: '/sucofindo-customer-portal',
         },
         {
