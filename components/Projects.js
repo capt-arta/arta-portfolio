@@ -9,34 +9,50 @@ import { SiCodeigniter, SiMicrosoftsqlserver, SiNestjs } from 'react-icons/si';
 import { RiReactjsFill } from "react-icons/ri";
 
 const Projects = () => {
-    const ProjectItem = ({title, img, tech, full_tech, desc, slug}) => {
+    const ProjectItem = ({ title, img, tech, full_tech, desc, slug }) => {
         return (
-            <ScrollAnimation animateIn='fadeIn' animateOnce>
-                <div className='relative bg-gray-800 flex items-center justify-center overflow-hidden h-full w-full shadow-xl shadow-[#00000060] rounded-xl transition-all group'>
-                    <div>
-                    {/* <Link href={slug}> */}
-                        <Image className=' opacity-40 blur-[2px] group-hover:opacity-10 group-hover:blur-sm h-[400px] object-cover' width={700} height={400} objectFit='cover' layout='fixed' src={img} alt={`/${title}`} /> 
-                        <div className='absolute text-white transition-all duration-500 group-hover:-top-1/2 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
-                            <h3 className='md:text-2xl tracking-wider text-center'>{title}</h3>
-                            <p className='pt-2 text-center'>{tech}</p>
-                        </div>
-                    {/* </Link> */}
-                    </div>
-                    <div className='absolute text-white flex flex-col justify-between transition-all duration-500 p-4 md:p-8 lg:10 xl:p-12 rounded-xl top-full group-hover:top-0 left-0 w-full h-[400px] bg-transparent'>
-                        <div className='h-full'>
-                            <p className='md:text-xl mb-4 font-bold text-lg'>{title}</p>
-                            <p className='text-justify text-sm md:text-base'>{desc}</p>
-                        </div>
-                        <div className='flex gap-2 overflow-auto'>
-                            {full_tech?.map((it, idx)=>{
-                                return <div key={idx} className='p-2 py-3 w-fit whitespace-nowrap rounded-md bg-white flex items-center text-black text-sm font-semibold'>{it}</div>
-                            })}
-                        </div>
-                    </div>  
+          <ScrollAnimation animateIn='fadeIn' animateOnce>
+            <div className='relative bg-gray-800 flex items-center justify-center overflow-hidden h-full w-full shadow-xl shadow-[#00000060] rounded-xl transition-all group'>
+              <div>
+                {/* You can uncomment this once you're ready to use Next.js routing */}
+                {/* <Link href={slug}> */}
+                <Image
+                  className='opacity-40 blur-[2px] group-hover:opacity-10 group-hover:blur-sm h-[400px] object-cover'
+                  width={700}
+                  height={400}
+                  style={{ objectFit: 'cover' }} // Replacing deprecated objectFit
+                  src={img}
+                  alt={title}
+                />
+                <div className='absolute text-white transition-all duration-500 group-hover:-top-1/2 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
+                  <h3 className='md:text-2xl tracking-wider text-center'>{title}</h3>
+                  <p className='pt-2 text-center'>{tech}</p>
                 </div>
-            </ScrollAnimation>
-        )
-    };
+                {/* </Link> */}
+              </div>
+              <div className='absolute text-white flex flex-col justify-between transition-all duration-500 p-4 md:p-8 lg:10 xl:p-12 rounded-xl top-full group-hover:top-0 left-0 w-full h-[400px] bg-transparent'>
+                <div className='h-full'>
+                  <p className='md:text-xl mb-4 font-bold text-lg'>{title}</p>
+                  <p
+                    className='text-justify text-sm md:text-base'
+                    dangerouslySetInnerHTML={{ __html: desc }} // Correct way to use dangerouslySetInnerHTML
+                  ></p>
+                </div>
+                <div className='flex gap-2 overflow-auto'>
+                  {full_tech?.map((it, idx) => (
+                    <div
+                      key={idx}
+                      className='p-2 py-3 w-fit whitespace-nowrap rounded-md bg-white flex items-center text-black text-sm font-semibold'
+                    >
+                      {it}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </ScrollAnimation>
+        );
+      };
 
     const projectsDataWithLogo = [
         {
@@ -111,8 +127,16 @@ const Projects = () => {
             img: '/assets/projects/customer-portal-sucofindo.jpg',
             tech: 'Laravel (fullstack)',
             full_tech: ['Laravel (fullstack)', 'MySql'],
-            desc: 'No description yet.',
+            desc: 'Im still working on it.',
             slug: '/sucofindo-customer-portal',
+        },
+        {
+            title: 'Sriboga Ratu Raya Website and CMS',
+            img: '/assets/projects/srr.png',
+            tech: 'Laravel (fullstack)',
+            full_tech: ['Laravel (fullstack)', 'PostgreSql'],
+            desc: `I worked on this freelance project and completed it within a week, including testing and user acceptance testing (UAT). My contribution was adding a new module called "OUR CONTRIBUTION." You can view it at the following link: <a class="font-semibold underline" target="__blank" href="https://www.sriboga.com/our-contribution">https://www.sriboga.com/our-contribution</a>. This module allows the company's contributions to be visible to the public.`,
+            slug: '/srr-website',
         },
         {
             title: 'Komet',
