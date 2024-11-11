@@ -7,7 +7,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 const index = () => {
     return (
         <>
-            <div id='home' className='w-full h-[90vh] text-center relative'>
+            <div id='home' className='w-full h-[80vh] text-center relative'>
                 <BirthdayParticlesBackground />
                 <div className='max-w-[1240px] w-full h-full mx-auto p-8 flex justify-center items-center'>
                     <div className='m-auto pt-[68px] z-[999]'>
