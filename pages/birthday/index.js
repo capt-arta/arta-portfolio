@@ -29,7 +29,7 @@ const index = () => {
             </div>
             <div className=' min-h-screen flex flex-col items-center justify-center p-8'>
                 <ScrollAnimation animateIn='flash' animateOnce>
-                    <p className='p-4 rounded-lg bg-white/40 flex flex-wrap'>
+                    <p className='p-4 max-w-[1000px] rounded-lg bg-white/40 flex flex-wrap'>
                         HAIIII!!!!
                         <br />
                         Selamat ulang tahun ke-20, adeee
@@ -57,10 +57,12 @@ const index = () => {
                         semogaaaa tahun ini kamu makin bahagia, makin kuat, dan
                         selalu dikelilingi orang-orang yang sayang sama kamu,
                         tentunyaaa di jagaa kesehatan nyaaa, pergaulan nyaaa,
-                        perjalanannya kamuu, seeemuaaa muanyaaaa. aku selaluuu
-                        ada di samping kamu, support dan nemenin kamu di setiap
-                        langkah yang kamu ambil. sekali lagi, happy birthday,
-                        adee cantikkkk! 🤗🤗🤗💗💗💗
+                        perjalanannya kamuu, seeemuaaa muanyaaaa. makin sayaangg
+                        sama akuu, selaluu sama akuuu, teteppp jadiii adee
+                        cantikk yang aku kenallll yaaa🤗🤗. aku selaluu ada di
+                        samping kamu, support dan nemenin kamu di setiap langkah
+                        yang kamu ambil. sekali lagi, happy birthday, adee
+                        cantikkkk! 🤗🤗🤗💗💗💗
                         <br />
                         <br />
                         I LOVE YOU MORE THAN YOU LOVE MEEE!!!🤗🤗🤗💋💋💋💗💗💗
@@ -70,17 +72,20 @@ const index = () => {
                         <br />
                         <br />
                         <br />
-                        ohiyaaa aku ada sesuatuu buat kamuu, cobaa kamu klik dibawah ini yaa cantikk...
-                        <Link href='/birthday/flowers' legacyBehavior className='w-full flex justify-center'>
+                        ohiyaaa aku ada sesuatuu buat kamuu, cobaa kamu klik
+                        dibawah ini yaa cantikk...
+                        <Link
+                            href='/birthday/flowers'
+                            legacyBehavior
+                            className='w-full flex justify-center'
+                        >
                             <a className='w-fit rounded-lg px-2 py-1 flex text-[10px] font-semibold bg-pink-500 hover:text-artiysx-blu/80 cursor-pointer whitespace-normal'>
-                                 klik disiniii!!!
+                                klik disiniii!!!
                             </a>
                         </Link>
-                    </p>    
-                    <p>
                     </p>
+                    <p></p>
                 </ScrollAnimation>
-
             </div>
         </>
     );
