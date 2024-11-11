@@ -7,7 +7,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 const index = () => {
     return (
         <>
-            <div id='home' className='w-full h-screen text-center relative'>
+            <div id='home' className='w-full h-[90vh] text-center relative'>
                 <BirthdayParticlesBackground />
                 <div className='max-w-[1240px] w-full h-full mx-auto p-8 flex justify-center items-center'>
                     <div className='m-auto pt-[68px] z-[999]'>
@@ -28,8 +28,8 @@ const index = () => {
                 </div>
             </div>
             <div className=' min-h-screen flex flex-col items-center justify-center p-8'>
-                <ScrollAnimation animateIn='flash' animateOnce>
-                    <p className='p-4 max-w-[1000px] rounded-lg bg-white/40 flex flex-wrap'>
+                {/* <ScrollAnimation animateIn='flash' animateOnce> */}
+                    <p className='p-4 max-w-[1000px] rounded-lg bg-white/50 flex flex-wrap'>
                         HAIIII!!!!
                         <br />
                         Selamat ulang tahun ke-20, adeee
@@ -85,7 +85,7 @@ const index = () => {
                         </Link>
                     </p>
                     <p></p>
-                </ScrollAnimation>
+                {/* </ScrollAnimation> */}
             </div>
         </>
     );
