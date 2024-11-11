@@ -175,7 +175,7 @@ const Projects = () => {
             img: '/assets/projects/itsd.png',
             tech: 'Laravel',
             full_tech: ['Laravel'],
-            desc: 'No description yet.',
+            desc: 'This dashboard is designed to monitor customer complaints from the past week, including tracking the status of each complaint to see whether it has been resolved or not. My task here is to display this data in chart form so that users can more easily read the available information.',
             slug: '/itsd-telkomsel-dashboard-voc',
         },
         {
@@ -199,7 +199,7 @@ const Projects = () => {
             img: '/assets/projects/ajari.png',
             tech: 'Next JS',
             full_tech: ['Next JS', 'Nest JS', 'PostgreSql'],
-            desc: 'No description yet.',
+            desc: 'Ajari Edutech is a mobile application designed for online classes where many people can join available classes virtually. In this project, I worked on the web-based admin dashboard, where admins can view and enter live classes (undetected), monitor all users, accept or reject teachers, approve class submissions, and much more. The total time spent developing the dashboard was two weeks.',
             slug: '/ajari-edutech',
         },
         {
