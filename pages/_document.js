@@ -9,8 +9,6 @@ export default function Document() {
         <meta charSet="UTF-8" />
 
         {/* Title */}
-        <title>{"Arta's Portfolio"}</title>
-
         {/* Meta description */}
         <meta name="description" content="Welcome to Arta's portfolio website. Discover my projects, skills, and professional experience." />
         <meta name="keywords" content="portfolio, artiys, javascript, php" />

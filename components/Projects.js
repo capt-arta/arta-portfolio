@@ -178,14 +178,14 @@ const Projects = () => {
             desc: 'This dashboard is designed to monitor customer complaints from the past week, including tracking the status of each complaint to see whether it has been resolved or not. My task here is to display this data in chart form so that users can more easily read the available information.',
             slug: '/itsd-telkomsel-dashboard-voc',
         },
-        {
-            title: 'BRI WorkBench',
-            img: '/assets/projects/wbench.jpeg',
-            tech: 'CodeIgniter',
-            full_tech: ['CodeIgniter', 'SQL Server'],
-            desc: 'No description yet.',
-            slug: '/bri-workbench',
-        },
+        // {
+        //     title: 'BRI WorkBench',
+        //     img: '/assets/projects/wbench.jpeg',
+        //     tech: 'CodeIgniter',
+        //     full_tech: ['CodeIgniter', 'SQL Server'],
+        //     desc: 'No description yet.',
+        //     slug: '/bri-workbench',
+        // },
         {
             title: 'CariParkir CMS (Admin and Portal)',
             img: '/assets/projects/cariparkir.png',
